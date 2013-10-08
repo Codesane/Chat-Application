@@ -1,7 +1,7 @@
 package network.client.handlers;
 
 import network.client.util.Users;
-import network.global.events.UserStatus;
+import network.global.update.UserStatus;
 import network.global.update.UserSyncEvent;
 import network.global.update.WelcomeMessage;
 

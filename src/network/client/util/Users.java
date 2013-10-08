@@ -3,8 +3,8 @@ package network.client.util;
 import java.util.ArrayList;
 
 import network.client.handlers.EventUpdateListener;
-import network.global.events.UserStatus;
 import network.global.objects.NetworkSharedUser;
+import network.global.update.UserStatus;
 import network.global.update.UserSyncEvent;
 
 public final class Users {

@@ -1,4 +1,4 @@
-package network.global.events;
+package network.global.update;
 
 import java.io.Serializable;
 

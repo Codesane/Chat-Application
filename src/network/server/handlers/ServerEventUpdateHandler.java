@@ -2,8 +2,8 @@ package network.server.handlers;
 
 import network.global.events.Events;
 import network.global.events.NetworkEvent;
-import network.global.events.UserStatus;
 import network.global.update.UpdateHeaderEvent;
+import network.global.update.UserStatus;
 import network.global.update.WelcomeMessage;
 import network.server.database.DBConstants;
 import network.server.database.Database;
