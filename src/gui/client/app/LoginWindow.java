@@ -67,7 +67,7 @@ public class LoginWindow extends JFrame implements ActionListener, HandshakeResp
 		this.hostConnectionCallback = hostcallback;
 		
 		setSize(380, 270);
-		
+		RecentConnections.init();
 		setupMenu();
 		
 		/* This will be listening for handshake responses and display information to the user.. */
@@ -99,9 +99,6 @@ public class LoginWindow extends JFrame implements ActionListener, HandshakeResp
 		connectNew.setToolTipText("Create a new connection.");
 		connectNew.addActionListener(this);
 		connect.add(connectRecent);
-		
-		RecentConnections.addNewConnection(new InetSocketAddress("aegidius.se", 13337));
-		
 		if(RecentConnections.hasRecentConnections()) {
 			ArrayList<InetSocketAddress> recentConnections = RecentConnections.getClientRecent();
 			for(InetSocketAddress isa : recentConnections) {
@@ -113,24 +110,46 @@ public class LoginWindow extends JFrame implements ActionListener, HandshakeResp
 		}
 	}
 	private void expandRecentConnectionsMenu(String newRecentConnection) {
+		connectRecent.setEnabled(true);
+		final JMenu recentConMenu = new JMenu(newRecentConnection);
 		
-		final JMenuItem recentConMenuItem = new JMenuItem(newRecentConnection);
+		final JMenuItem connectToRecent = new JMenuItem("Connect");
+		final JMenuItem removeRecent = new JMenuItem("Remove");
+		recentConMenu.add(connectToRecent);
+		recentConMenu.add(removeRecent);
 		
-		recentConMenuItem.setActionCommand(newRecentConnection);
+		connectToRecent.setActionCommand(newRecentConnection);
+		removeRecent.setActionCommand(newRecentConnection);
 		
-		recentConMenuItem.addActionListener(new ActionListener() {
+		connectToRecent.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				connectToUnparsedAddress(recentConMenuItem.getActionCommand());
+				connectToUnparsedAddress(e.getActionCommand());
 			}
 		});
-		connectRecent.add(recentConMenuItem);
+		
+		removeRecent.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				String[] hostNameIp = e.getActionCommand().split(":");
+				if(hostNameIp.length == 2) { // For security precautions.
+					InetSocketAddress remAddr = new InetSocketAddress(hostNameIp[0], Integer.parseInt(hostNameIp[1]));
+					connectRecent.remove(recentConMenu);
+					RecentConnections.removeConnection(remAddr);
+					if(!RecentConnections.hasRecentConnections()) {
+						connectRecent.setEnabled(false);
+					}
+				}
+			}
+		});
+		
+		connectRecent.add(recentConMenu);
 	}
 	
 	/** Sets the bottom text of the  */
 	public synchronized void setServerStatusInfo(final ServerStatus status) {
 		if(status == ServerStatus.ONLINE) {
-			/* The user will only be allowed to login if there is a connection with the server. */
+			/* The user will only be allowed to try to login if there is a connection with the server. */
 			canTryLogin = true;
 		} else {
 			canTryLogin = false;
@@ -254,7 +273,7 @@ public class LoginWindow extends JFrame implements ActionListener, HandshakeResp
 		if(e.getSource() == loginButton || e.getSource() == username || e.getSource() == password) {
 			if(!canTryLogin) {
 				JOptionPane.showMessageDialog(null, "Unresolved Hostname!\n" +
-						"Please supply a Server Hostname and IP before " +
+						"Please supply a Server Hostname and Port before " +
 						"logging in.", "Error: Unresolved Server.", JOptionPane.ERROR_MESSAGE);
 				return;
 			}
@@ -268,12 +287,15 @@ public class LoginWindow extends JFrame implements ActionListener, HandshakeResp
 			if(mostRecentConn != null) {
 				defaultConnectionString = mostRecentConn.getHostName() + ":" + mostRecentConn.getPort();
 			}
-			String hostInput = JOptionPane.showInputDialog("Please enter the new Hostname and IP " +
+			String hostInput = JOptionPane.showInputDialog("Please enter the new Hostname and Port " +
 					"separated by colon.\nExample: hostname:port", defaultConnectionString);
 			connectToUnparsedAddress(hostInput);
 		}
 	}
 	
+	/**
+	 * Will ask to connect to the address given as a string.
+	 * The expected format is: <b>host:port</b> */
 	private void connectToUnparsedAddress(String unparsed) {
 		
 		if(unparsed == null) return;
@@ -285,8 +307,8 @@ public class LoginWindow extends JFrame implements ActionListener, HandshakeResp
 				}
 				hostConnectionCallback.connectToHost(parsedHost[0], Integer.parseInt(parsedHost[1]));
 			} catch(Exception numExc) {
-				JOptionPane.showMessageDialog(null, "Invalid Format: " + parsedHost[1] + " is not a number.",
-						"Not a Number", JOptionPane.ERROR_MESSAGE);
+				JOptionPane.showMessageDialog(null, "Invalid Format: " + parsedHost[1] + " is not a valid port number.",
+						"Not a Valid Port Number", JOptionPane.ERROR_MESSAGE);
 			}
 		}
 	}

@@ -72,7 +72,7 @@ public final class RecentConnections {
 		}
 	}
 	
-	
+	/** @return the most recently added connection, null if no entries reside in the array. */
 	public static boolean hasRecentConnections() {
 		if(clientRecent == null || clientRecent.size() == 0) {
 			return false;
@@ -105,4 +105,12 @@ public final class RecentConnections {
 		return true;
 	}
 	
+	public static void removeConnection(InetSocketAddress sockaddr) {
+		if(!isInit) { init(); }
+		for(int i = 0; i < clientRecent.size(); i++) {
+			if(clientRecent.get(i).equals(sockaddr)) {
+				clientRecent.remove(i);
+			}
+		}
+	}
 }

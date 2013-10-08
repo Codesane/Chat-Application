@@ -42,7 +42,7 @@ public final class Sessions {
 	
 	/** Sending an update to all the users online that a new connection(user) has logged in. */
 	public static void sendUserUpdateStatusEvent(UserStatus status) {
-		Actions.addAction(new Action(ActionType.INFO, "New user has connected to the Server." +
+		Actions.addAction(new Action(ActionType.INFO, "Emitting New User Connection Status Changed Signal to All Connections." +
 				"\n[ID: 0x" + Integer.toHexString(status.getUser().getId()) + "]" +
 				"\n[Username: " + status.getUser().getName() + "]"));
 		NetworkEvent statusUpdateEvent = Events.createNewEvent(Server.getChannelGroup());
