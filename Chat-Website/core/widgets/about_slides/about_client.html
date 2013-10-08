@@ -1,0 +1,28 @@
+<div class="about_content-container">
+	<h2>The Client</h2>
+	<hr />
+	
+	The client has a Network part and a GUI part.<br />
+	<b>The GUI has two main tasks</b>; to Display and to invoke events, for example;
+	<ul>
+		<li>User presses "login". On this event the client creates a NetworkEvent that is located in the network part of the application,
+	and triggers the event. All the user actions is triggered by the GUI part and then carried out to the network side of the application
+	where it can be handled more carefully.</li><br />
+		<li>When the network receives a message in the "pipeline", depending on the message, a callback function is triggered in the GuiManager class and then carried out to the
+	ClientWindow class. The message received will be handled by the client window and shown in the appropriate message tab, or open a new if a chat window with this user is not already opened.</li>
+	</ul>
+	
+	<b>On the network side:</b>
+	<ul>
+		<li>When the client successfully connects to the server a channel will be received and all the Channel handlers will be attached to the pipeline, this
+		allows us to push events through the pipeline asynchronously (since Netty is an asynchronous library). Because the networking is handled asynchronously there is a 
+		lot of precautions to be aware of, multi-threaded applications can cause deadlocks. A deadlock is when two (or more) threads tries to access the same variable at the same time.
+		This has been handled accordingly in the networking part and I have put a lot of effort into making it as perfectly synchronized as possible.</li><br />
+		<li>A NetworkEvent is created through the Events.createNewEvent(Channel) function which takes a channel in its parameter, this package is used both server- and client-side.
+		The constructor for the NetworkEvent is of access type "protected" thus can not be invoked in any other way other than from the Events class static function.</li>
+	</ul>
+	
+	<br />
+	
+	
+</div>

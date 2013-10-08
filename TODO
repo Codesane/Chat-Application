@@ -1,0 +1,13 @@
+Bug & Error fixes
+
+++ Server ++
+- When a user is already logged in and attempts to login from another client on the same account, the kick function
+have a tendency to fail from time to time.
+
+++ Client ++
+- Only make the "Right-Click-To-PM" function available when there's users in the list [Low Prio]
+- When a user on the other end disconnects when the current user has a private chat open with the disconnected user, the textfield
+becomes inactive, if the user reconnects the textfield doesn't re-activate. [Low]
+
+++ Both ++
+- There are some events where the keepAlive option on the bootstrap fails. A solution for this would be to create one manually. [High Prio]

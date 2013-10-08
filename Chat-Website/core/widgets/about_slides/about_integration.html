@@ -1,0 +1,25 @@
+<div class="about_content-container">
+	<h2>Integration</h2>
+	<hr />
+	
+	<b>Database - The Starting Point</b><br />
+	First of all, the database needs to be up and running, without it, the server can not acquire the port number.<p>
+	<b>Sever - Pulling the Strings</b><br />
+	When the Database is up and running you can now launch the server. The server will handle all the requests done by the client for a safe connection between database-client.
+	When the server is running it is directly available to serve the clients requests. The client is solely communicating with the Server but if the server loses the connection with the database the
+	server can still serve the messaging system, but is unable to allow more users to connect during the time the database is offline.<p>Also, there is no reconnect function attached to the server, if the server
+	loses the connection with the database, it will continue being lost until a restart has taken place (this is something that can and should be updated in the future).
+	<p>
+	<b>Client - Hello Connection!</b><br />
+	As mentioned before, the client communicates with the server only. The client can send requests to the server and the server in turn will decide what to make of those requests.
+	This is to preserve a healthy connection between user and a database. A user should never have any access to a database by his own for security purposes.
+	<p>
+	<b>Website</b><br />
+	The website can handle a couple of requests, anything the Database holds, the website can acquire. The website handles the registration and grants the user the option to download the client.
+	
+	<center><u><h3>Connectivity Visual</h3></u><p>
+		<img src="./img/integration.png" alt="connectivity" />
+	</center>
+	<p>This image shows what the different systems can access. Notice that the user (Client) can in no way access the database except for the exception that there's a vulnerability somewhere.<br />
+	An example of a vulnerability would be to perform an SQL Injection towards the server. In this case though I've engineered the application to stay secure from such attacks.
+</div>

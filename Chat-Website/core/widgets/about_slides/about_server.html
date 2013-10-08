@@ -1,0 +1,36 @@
+<div class="about_content-container">
+	<h2>The Server</h2>
+	<hr />
+	
+	When starting the server it asks for the <b>port</b>, <b>message of the day</b>, <b>client version</b> and the <b>key</b> which the server receives from the database <i><u>once</u></i> during the Server initialization.
+	<br />
+	here's an explanation step-by-step of how the server handles a cycle:
+	<ul>
+		<li>
+			<b>A new connection</b> is received by the ServerBootstrap and a channel is generated populated with the handshake handlers by default
+		</li>
+		<li>
+			<b>The handshake handlers</b> will trigger when a handshake event is caught in the pipeline and validate the response.
+			Depending on the information given, the server will return different values;
+			<ul>
+				<li><b>Invalid Username or Password</b> - <i>If the information given did not match any in the database. </i></li><br />
+				<li><b>Invalid client version</b> - <i>The client version previously fetched from the database did not match with the input received from the client.</i></li><br />
+				<li><b>Invalid key</b> - <i>The key previously fetched from the database did not match with the input received from the client.</i></li><br />
+				<li><b>User is Banished</b> - <i>The isBanished variable in the database is set to 1.</i></li><br />
+				<li><b>Succeeded</b> - <i>There was no errors in the handshake.</i></li>
+			</ul>
+		</li>
+		<li>
+			<b>Handshake succeeded</b> - <i>Set the default pipeline and create a new Session.</i><br />
+			<dd>- <u>The default pipeline</u> contains handlers such as the event handler and the message handler.
+			These different handlers will respond to the packages the server receives differently. The message handler can send a broadcast message and private message while the event handler can
+			send the welcome message, synchronizations and user logged in/out events. </dd>
+		</li>
+		<li>
+			<b>Synchronize Users from Server.</b>
+			The Event handler activates when a ready status was sent from the client, saying that the client window is set up and is now waiting for the users online array.
+			<br />The event handler fires a sync method from the <b>Sessions</b> class which will be sent to the client.
+		</li><br />
+	</ul>
+	At this point the connection, handshake and synchronization is complete. Messages can now be sent between Client-Server-Client.
+</div>

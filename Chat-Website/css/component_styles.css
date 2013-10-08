@@ -1,0 +1,203 @@
+
+.comp-mid-display-header {
+	min-height:200px !important;
+	background:#f2f2f2;
+	color:#282828;
+	margin:0 auto;
+	margin-top:50px;
+	border-radius:3px;
+	box-shadow:0 0 20px rgba(255, 255, 255, .5);
+	border-top:1px solid #f2f2f2;
+	margin-bottom:200px;
+}
+
+.comp-mid-display-header-menu {
+	position:relative;
+	height:60px;
+	background:#ccc;
+	border-bottom:1px solid #adacac;
+	box-shadow:0 1px 3px rgba(0, 0, 0, .5);
+	border-top-left-radius:3px;
+	border-top-right-radius:3px;
+}
+.comp-mid-display-header-menu-title {
+	text-align:center;
+	line-height:60px;
+	font-size:36px;
+	color:#1785a9;
+	text-shadow:0 1px 0 rgba(255, 255, 255, .5);
+}
+
+.comp-row-col-container {
+	padding:10px;
+	color:#4b4b4b;
+}
+
+.comp-mid-display-footer {
+	background:#c2c1c1;
+	border-bottom-right-radius:inherit;
+	border-bottom-left-radius:inherit;
+	border-top:1px solid #b4b4b4;
+	box-shadow:inset 0 1px 2px rgba(0, 0, 0, .2);
+	line-height:40px;
+	padding-left:15px;
+	
+}
+.comp-footer-links a:link, .comp-footer-links a:active, .comp-footer-links a:visited {
+	text-decoration:none;
+	font-size:12px;
+	color:#29b6bf;
+	text-shadow:0 1px 0 rgba(255, 255, 255, .5);
+	color:#377cc2;
+	font-weight:bold;
+	display:block;
+	float:left;
+	width:145px;
+	text-align:center;
+}
+
+.comp-row {
+	clear:both;
+	height:50px;
+}
+
+.comp-row .comp-row-col1 {
+	display:inline-block;
+	float:left;
+	line-height:40px;
+	font-weight:bold;
+	letter-spacing:1px;
+	text-shadow:0 1px 0 rgba(255, 255, 255, .5);
+}
+.comp-row .comp-row-col2 {
+	display:inline-block;
+	float:right;
+	line-height:40px;
+	margin-left:10px;
+}
+
+
+.comp-input-button-submit {
+	width:244px;
+	height:40px;
+	background-color: #1abf0d;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#1abf0d), to(#17a10d)); /* Chrome, Safari 4+ */
+	background-image: -webkit-linear-gradient(top, #1abf0d, #17a10d); /* Chrome 10-25, iOS 5+, Safari 5.1+ */
+	background-image:    -moz-linear-gradient(top, #1abf0d, #17a10d); /* Firefox 3.6-15 */
+	background-image:      -o-linear-gradient(top, #1abf0d, #17a10d); /* Opera 11.10-12.00 */
+	background-image:         linear-gradient(to bottom, #1abf0d, #17a10d); /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
+	border:1px solid #1f8c17;
+	border-top:1px solid #26d718;
+	box-shadow:0 -1px 0 rgba(31, 140, 23, 1);
+	border-radius:3px;
+	font-size:18px;
+	color:#ededed;
+	text-shadow:0 -1px 0 rgba(0, 0, 0, .3);
+	outline:0;
+}
+.comp-input-button-submit:focus, .comp-input-button-submit:hover {
+	position:relative;
+	top:-1px;
+	box-shadow:0 2px 3px rgba(0, 0, 0, .5);
+}
+
+.comp-input-text-password {
+	width:230px;
+	padding:5px 7px;
+	border-radius:3px;
+	border:1px solid #ddd;
+	border-top:1px solid rgba(0, 0, 0, .3);
+	outline:0;
+	
+	background-color: #f0f0f0;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f0f0f0), to(#ffffff)); /* Chrome, Safari 4+ */
+	background-image: -webkit-linear-gradient(top, #f0f0f0, #ffffff); /* Chrome 10-25, iOS 5+, Safari 5.1+ */
+	background-image:    -moz-linear-gradient(top, #f0f0f0, #ffffff); /* Firefox 3.6-15 */
+	background-image:      -o-linear-gradient(top, #f0f0f0, #ffffff); /* Opera 11.10-12.00 */
+	background-image:         linear-gradient(to bottom, #f0f0f0, #ffffff); /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
+	
+}
+.comp-input-text-password:focus {
+	box-shadow:0 0 7px rgba(151, 255, 131, 1);
+}
+
+.comp-error-container {
+	width:500px;
+}
+
+.comp-error-row {
+	clear:both;
+	background-color: #f0f0f0;
+	color:#efefef;
+	letter-spacing:1px;
+	border-radius:2px;
+	width:500px;
+	display:none;
+}
+
+.comp-error-close {
+	display:inline-block;
+	float:left;
+	width:30px;
+	line-height:30px;
+	text-align:center;
+	background-color: #630000;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#630000), to(#850000)); /* Chrome, Safari 4+ */
+	background-image: -webkit-linear-gradient(top, #630000, #850000); /* Chrome 10-25, iOS 5+, Safari 5.1+ */
+	background-image:    -moz-linear-gradient(top, #630000, #850000); /* Firefox 3.6-15 */
+	background-image:      -o-linear-gradient(top, #630000, #850000); /* Opera 11.10-12.00 */
+	background-image:         linear-gradient(to bottom, #630000, #850000); /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
+	font-weight:bold;
+	border-right:1px solid rgba(255, 255, 255, .2);
+	border-top-left-radius:2px;
+	border-bottom-left-radius:2px;
+	margin:2px 0;
+}
+.comp-error-close:hover {
+	color:#ffa7a7;
+	cursor:pointer;
+	-webkit-user-select: none; /* Chrome/Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+ */
+	-o-user-select: none;
+	user-select: none;
+}
+.comp-error-message {
+	display:inline-block;
+	float:left;
+	width:440px;
+	line-height:30px;
+	padding-left:10px;
+	background-color: #630000;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#630000), to(#850000)); /* Chrome, Safari 4+ */
+	background-image: -webkit-linear-gradient(top, #630000, #850000); /* Chrome 10-25, iOS 5+, Safari 5.1+ */
+	background-image:    -moz-linear-gradient(top, #630000, #850000); /* Firefox 3.6-15 */
+	background-image:      -o-linear-gradient(top, #630000, #850000); /* Opera 11.10-12.00 */
+	background-image:         linear-gradient(to bottom, #630000, #850000); /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
+	padding:0 10px;
+	border-left:1px solid rgba(0, 0, 0, .09);
+	border-bottom-right-radius:2px;
+	border-top-right-radius:2px;
+	margin:2px 0;
+}
+.comp-error-message-successful {
+	background-color: #f0f0f0;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#199516), to(#16cf12)); /* Chrome, Safari 4+ */
+	background-image: -webkit-linear-gradient(top, #199516, #16cf12); /* Chrome 10-25, iOS 5+, Safari 5.1+ */
+	background-image:    -moz-linear-gradient(top, #199516, #16cf12); /* Firefox 3.6-15 */
+	background-image:      -o-linear-gradient(top, #199516, #16cf12); /* Opera 11.10-12.00 */
+	background-image:         linear-gradient(to bottom, #199516, #16cf12); /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

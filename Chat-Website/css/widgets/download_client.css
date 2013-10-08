@@ -1,0 +1,36 @@
+#download-container {
+	width:500px;
+	height:300px;
+	margin:0 auto;
+}
+.download-item-text {
+	font-size:24px;
+	text-align:center;
+	width:400px;
+	margin:50px auto 20px auto;
+	color:#cf641d;
+	text-shadow:0 1px 0 rgba(255, 255, 255, .5);
+}
+.download-image {
+	width:128px;
+	height:128px;
+	background:url('../../img/downloadbox.png') center no-repeat;
+	margin:0 auto;
+}
+.dl-button-custom {
+	width:300px;
+	height:70px;
+	position:relative;
+	margin-left:50%;
+	left:-150px;
+	margin-top:20px;
+	background-color: #1abf0d;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#1abf0d), to(#17a10d)); /* Chrome, Safari 4+ */
+	background-image: -webkit-linear-gradient(top, #1abf0d, #17a10d); /* Chrome 10-25, iOS 5+, Safari 5.1+ */
+	background-image:    -moz-linear-gradient(top, #1abf0d, #17a10d); /* Firefox 3.6-15 */
+	background-image:      -o-linear-gradient(top, #1abf0d, #17a10d); /* Opera 11.10-12.00 */
+	background-image:         linear-gradient(to bottom, #31a8df, #178fc6); /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
+	border:1px solid #177eae;
+	border-top:1px solid #5ac6f9;
+	box-shadow:0 -1px 0 #177eae;
+}

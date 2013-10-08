@@ -1,0 +1,2901 @@
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2013-07-17] XAMPP for Linux 1.8.3-beta1
+
+This version of XAMPP includes:
+    - Apache 2.4.4
+    - MySQL 5.6.12
+    - PHP 5.5.0
+
+[2013-06-26] XAMPP for Linux 1.8.2-0
+
+This version of XAMPP includes:
+    - Apache 2.4.4
+    - MySQL 5.5.31
+    - PHP 5.4.16
+    - Perl 5.16.3
+    - ProFTPD 1.3.4c
+    - phpMyAdmin 4.0.4
+    - OpenSSL 1.0.1e
+    - GD 2.0.35
+    - Freetype 2.4.8
+    - libjpeg 8d
+    - libpng 1.5.9
+    - gdbm 1.8.3
+    - zlib 1.2.8
+    - expat 2.0.1
+    - Sablotron 1.0.3
+    - libxml 2.8.0
+    - libxslt 1.1.28
+    - Ming 0.4.5
+    - Webalizer 2.23-05
+    - pdf class 0.11.7
+    - ncurses 5.9
+    - mod_perl 2.0.8
+    - FreeTDS 0.91
+    - gettext 0.18.1.1
+    - IMAP C-Client 2007e
+    - OpenLDAP (client) 2.4.21
+    - mhash library 0.9.9.9
+    - mcrypt library 2.5.8
+    - cURL 7.30.0
+    - SQLite 2.8.17 (for PHP4 + PHP5)
+    - SQLite 3.7.17 (for PHP5 PDO SQLite)
+    - libapreq 2.12
+    - eAccelerator 0.9.6.1
+    - FPDF 1.7
+    - bzip2 (library) 1.0.6
+    - ICU4C Library 4.8.1
+    - APR 1.4.6
+    - APR-utils 1.5.1
+
+New in this version of XAMPP:
+    - New version of Apache (2.4.4)
+    - New version of MySQL (5.5.31)
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2013-06-11] XAMPP for Linux 1.8.2-beta2 
+
+This version of XAMPP includes:
+    - Apache 2.4.4
+    - MySQL 5.5.31
+    - PHP 5.4.7
+    - Perl 5.14.2
+    - ProFTPD 1.3.4c
+    - phpMyAdmin 3.5.8.1
+    - OpenSSL 1.0.1e
+    - GD 2.0.35
+    - Freetype 2.1.7
+    - libjpeg 8d
+    - libpng 1.2.12
+    - gdbm 1.8.3
+    - zlib 1.2.3
+    - expat 1.95.8
+    - Sablotron 1.0.3
+    - libxml 2.7.8
+    - libxslt 1.1.26
+    - Ming 0.4.3
+    - Webalizer 2.21-02
+    - pdf class 009e
+    - ncurses 5.7
+    - mod_perl 2.0.8
+    - FreeTDS 0.63
+    - gettext 0.17
+    - IMAP C-Client 2007e
+    - OpenLDAP (client) 2.4.21
+    - mhash library 0.8.18
+    - mcrypt library 2.5.8
+    - cURL 7.21.0
+    - SQLite 2.8.17 (for PHP4 + PHP5)
+    - SQLite 3.6.16 (for PHP5 PDO SQLite)
+    - libapreq 2.12
+    - eAccelerator 0.9.6.1
+    - FPDF 1.7
+    - bzip2 (library) 1.0.6
+    - ICU4C Library 4.8.1
+    - APR 1.4.6
+    - APR-utils 1.4.1
+
+New in this version of XAMPP:
+    - New version of Apache (2.4.4)
+    - New version of MySQL (5.5.31)
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2013-02-10] XAMPP for Linux 1.8.2-beta1
+
+This version of XAMPP includes:
+    - Apache 2.4.3
+    - MySQL 5.5.27
+    - PHP 5.4.7
+    - Perl 5.14.2
+    - ProFTPD 1.3.4a
+    - phpMyAdmin 3.5.2.2
+    - OpenSSL 1.0.1c
+    - GD 2.0.1
+    - Freetype 2.1.7
+    - libjpeg 6b
+    - libpng 1.2.12
+    - gdbm 1.8.0
+    - zlib 1.2.3
+    - expat 1.95.2
+    - Sablotron 1.0
+    - libxml 2.7.6
+    - libxslt 1.1.26
+    - Ming 0.4.3
+    - Webalizer 2.21-02
+    - pdf class 009e
+    - ncurses 5.7
+    - mod_perl 2.0.5
+    - FreeTDS 0.63
+    - gettext 0.17
+    - IMAP C-Client 2007e
+    - OpenLDAP (client) 2.4.21
+    - mhash library 0.8.18
+    - mcrypt library 2.5.7
+    - cURL 7.21.0
+    - SQLite 2.8.17 (for PHP4 + PHP5)
+    - SQLite 3.6.16 (for PHP5 PDO SQLite)
+    - libapreq 2.12
+    - eAccelerator 0.9.6.1
+    - FPDF 1.6
+    - bzip2 (library) 1.0.5
+    - PBXT 1.0.11-6-pre-ga
+    - PBMS 0.5.15 (but disabled)
+    - PBMSlib 0.5.15
+    - ICU4C Library 4.2.1
+    - APR 1.4.6
+    - APR-utils 1.4.1
+
+New in this version of XAMPP:
+    - New version of Apache (2.4.3)
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2012-09-30] XAMPP for Linux 1.8.1
+
+This version of XAMPP includes:
+    - Apache 2.4.3
+    - MySQL 5.5.27
+    - PHP 5.4.7
+    - Perl 5.14.2
+    - ProFTPD 1.3.4a
+    - phpMyAdmin 3.5.2.2
+    - OpenSSL 1.0.1c
+    - GD 2.0.1
+    - Freetype 2.1.7
+    - libjpeg 6b
+    - libpng 1.2.12
+    - gdbm 1.8.0
+    - zlib 1.2.3
+    - expat 1.95.2
+    - Sablotron 1.0
+    - libxml 2.7.6
+    - libxslt 1.1.26
+    - Ming 0.4.3
+    - Webalizer 2.21-02
+    - pdf class 009e
+    - ncurses 5.7
+    - mod_perl 2.0.5
+    - FreeTDS 0.63
+    - gettext 0.17
+    - IMAP C-Client 2007e
+    - OpenLDAP (client) 2.4.21
+    - mhash library 0.8.18
+    - mcrypt library 2.5.7
+    - cURL 7.21.0
+    - SQLite 2.8.17 (for PHP4 + PHP5)
+    - SQLite 3.6.16 (for PHP5 PDO SQLite)
+    - libapreq 2.12
+    - eAccelerator 0.9.6.1
+    - FPDF 1.6
+    - bzip2 (library) 1.0.5
+    - PBXT 1.0.11-6-pre-ga
+    - PBMS 0.5.15 (but disabled)
+    - PBMSlib 0.5.15
+    - ICU4C Library 4.2.1
+    - APR 1.4.6
+    - APR-utils 1.4.1
+
+New in this version of XAMPP:
+    - New version of Apache (2.4.3)
+    - New version of PHP (5.4.7)
+    - New version of MySQL (5.5.27)
+    - Nev version of phpMyAdmin (3.5.2.2)
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2012-07-10] XAMPP for Linux 1.8.0
+
+This version of XAMPP includes:
+    - Apache 2.4.2
+    - MySQL 5.5.25a
+    - PHP 5.4.4
+    - Perl 5.14.2
+    - ProFTPD 1.3.4a
+    - phpMyAdmin 3.5.2
+    - OpenSSL 1.0.1c
+    - GD 2.0.1
+    - Freetype 2.1.7
+    - libjpeg 6b
+    - libpng 1.2.12
+    - gdbm 1.8.0
+    - zlib 1.2.3
+    - expat 1.95.2
+    - Sablotron 1.0
+    - libxml 2.7.6
+    - libxslt 1.1.26
+    - Ming 0.4.3
+    - Webalizer 2.21-02
+    - pdf class 009e
+    - ncurses 5.7
+    - mod_perl 2.0.5
+    - FreeTDS 0.63
+    - gettext 0.17
+    - IMAP C-Client 2007e
+    - OpenLDAP (client) 2.4.21
+    - mhash library 0.8.18
+    - mcrypt library 2.5.7
+    - cURL 7.21.0
+    - SQLite 2.8.17 (for PHP4 + PHP5)
+    - SQLite 3.6.16 (for PHP5 PDO SQLite)
+    - libapreq 2.12
+    - eAccelerator 0.9.6.1
+    - FPDF 1.6
+    - bzip2 (library) 1.0.5
+    - PBXT 1.0.11-6-pre-ga
+    - PBMS 0.5.15 (but disabled)
+    - PBMSlib 0.5.15
+    - ICU4C Library 4.2.1
+    - APR 1.4.6
+    - APR-utils 1.4.1
+
+New in this version of XAMPP:
+    - Added APR (1.4.6)
+    - Added APR-utils (1.4.1)
+    - New version of Perl (5.14.2)
+    - Currently disabled mod_perl, because of incompatibility with Apache 2.4
+    - Currently disabled eAccelerator, because of incompatibility with 
+      PHP 5.4.0. Thinking about switching to APC...
+    - phonebook.php ported to SQLite3 since PHP 5.4 dropped support for SQLite2
+    - New version of Apache (2.4.2)
+    - Nev version of phpMyAdmin (3.5.1)
+    - New version of OpenSSL (1.0.1c)
+    - New version of ProFTPD (1.3.4a)
+    - New version of PHP (5.4.4)
+    - New version of MySQL (5.5.25a)
+    - Nev version of phpMyAdmin (3.5.2)
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2011-09-19] XAMPP for Linux 1.7.7
+
+This version of XAMPP includes:
+    - Apache 2.2.21
+    - MySQL 5.5.16
+    - PHP 5.3.8
+    - Perl 5.10.1
+    - ProFTPD 1.3.3e
+    - phpMyAdmin 3.4.5
+    - OpenSSL 1.0.0c
+    - GD 2.0.1
+    - Freetype 2.1.7
+    - libjpeg 6b
+    - libpng 1.2.12
+    - gdbm 1.8.0
+    - zlib 1.2.3
+    - expat 1.95.2
+    - Sablotron 1.0
+    - libxml 2.7.6
+    - libxslt 1.1.26
+    - Ming 0.4.3
+    - Webalizer 2.21-02
+    - pdf class 009e
+    - ncurses 5.7
+    - mod_perl 2.0.5
+    - FreeTDS 0.63
+    - gettext 0.17
+    - IMAP C-Client 2007e
+    - OpenLDAP (client) 2.4.21
+    - mhash library 0.8.18
+    - mcrypt library 2.5.7
+    - cURL 7.21.0
+    - SQLite 2.8.17 (for PHP4 + PHP5)
+    - SQLite 3.6.16 (for PHP5 PDO SQLite)
+    - libapreq 2.12
+    - eAccelerator 0.9.6.1
+    - FPDF 1.6
+    - bzip2 (library) 1.0.5
+    - PBXT 1.0.11-6-pre-ga
+    - PBMS 0.5.15 (but disabled)
+    - PBMSlib 0.5.15
+    - ICU4C Library 4.2.1
+
+New in this version of XAMPP:
+    - Fixed a problem with MySQL 5.5.x and XAMPP's backup script
+    - New version of mod_perl (2.0.5)
+    - New version of ProFTPD (1.3.3e)
+    - New version of phpMyAdmin (3.4.5)
+    - New version of PHP (5.3.8)
+    - New version of Apache (2.2.21)
+    - New version of MySQL (5.5.16)
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2011-01-25] XAMPP for Linux 1.7.4
+
+This version of XAMPP includes:
+    - Apache 2.2.17
+    - MySQL 5.5.8
+    - PHP 5.3.5
+    - Perl 5.10.1
+    - ProFTPD 1.3.3d
+    - phpMyAdmin 3.3.9
+    - OpenSSL 1.0.0c
+    - GD 2.0.1
+    - Freetype 2.1.7
+    - libjpeg 6b
+    - libpng 1.2.12
+    - gdbm 1.8.0
+    - zlib 1.2.3
+    - expat 1.95.2
+    - Sablotron 1.0
+    - libxml 2.7.6
+    - libxslt 1.1.26
+    - Ming 0.4.3
+    - Webalizer 2.21-02
+    - pdf class 009e
+    - ncurses 5.7
+    - mod_perl 2.0.4
+    - FreeTDS 0.63
+    - gettext 0.17
+    - IMAP C-Client 2007e
+    - OpenLDAP (client) 2.4.21
+    - mhash library 0.8.18
+    - mcrypt library 2.5.7
+    - cURL 7.21.0
+    - SQLite 2.8.17 (for PHP4 + PHP5)
+    - SQLite 3.6.16 (for PHP5 PDO SQLite)
+    - libapreq 2.12
+    - eAccelerator 0.9.6.1
+    - FPDF 1.6
+    - bzip2 (library) 1.0.5
+    - PBXT 1.0.11-6-pre-ga
+    - PBMS 0.5.15 (but disabled)
+    - PBMSlib 0.5.15
+    - ICU4C Library 4.2.1
+
+New in this version of XAMPP:
+    - New version of Ming (0.4.3)
+    - New version of eAccelerator (0.9.6.1)
+    - New version of cURL (7.21.0)
+    - New version of OpenLDAP (client) 2.4.21
+    - New version of PBXT (1.0.11-6-pre-ga) 
+    - New version of PBMS (0.5.15)
+    - New version of PBMSlib (0.5.15)
+    - New version of ncurses (5.7)
+    - New version of Apache (2.2.17)
+    - New version of OpenSSL (1.0.0c)
+    - New version of MySQL (5.5.8)
+    - PBXT and PBMS currently removed because of incompatibility 
+      with MySQL 5.5.8.
+    - New version of ProFTPD (1.3.3d)
+    - New version of PHP (5.3.5)
+    - New version of phpMyAdmin (3.3.9)
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2010-01-09] XAMPP for Linux 1.7.3a
+
+    - /opt/lampp/lampp backup is working again
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2009-12-20] XAMPP for Linux 1.7.3
+
+This version of XAMPP includes:
+    - Apache 2.2.14
+    - MySQL 5.1.41
+    - PHP 5.3.1
+    - Perl 5.10.1
+    - ProFTPD 1.3.2c
+    - phpMyAdmin 3.2.4
+    - OpenSSL 0.9.8l
+    - GD 2.0.1
+    - Freetype 2.1.7
+    - libjpeg 6b
+    - libpng 1.2.12
+    - gdbm 1.8.0
+    - zlib 1.2.3
+    - expat 1.95.2
+    - Sablotron 1.0
+    - libxml 2.7.6
+    - libxslt 1.1.26
+    - Ming 0.4.2
+    - Webalizer 2.21-02
+    - pdf class 009e
+    - ncurses 5.3
+    - mod_perl 2.0.4
+    - FreeTDS 0.63
+    - gettext 0.17
+    - IMAP C-Client 2007e
+    - OpenLDAP (client) 2.3.11
+    - mhash library 0.8.18
+    - mcrypt library 2.5.7
+    - cURL 7.19.6
+    - SQLite 2.8.17 (for PHP4 + PHP5)
+    - SQLite 3.6.16 (for PHP5 PDO SQLite)
+    - libapreq 2.12
+    - eAccelerator 0.9.5.3
+    - FPDF 1.6
+    - bzip2 (library) 1.0.5
+    - PBXT 1.0.09-rc
+    - PBMS 0.5.08-alpha
+    - ICU4C Library 4.2.1
+
+New in this version of XAMPP:
+    - Removed phpSQLitdAdmin
+    - New version of XAMPP Control Panel (0.8)
+    - New version of Apache (2.2.14)
+    - New version of Perl (5.10.1)
+    - New version of PBXT (1.0.09-rc)
+    - New version of libxml (2.7.6)
+    - New version of libxslt (1.1.26)
+    - New version of cURL (7.19.6)
+    - New version of libapreq (2.12)
+    - New version of ProFTPD (1.3.2b)
+    - New version of OpenSSL (0.9.8l)
+    - New version of MySQL (5.1.41)
+      PBXT currently disabled, didn't compile with 5.1.41
+    - New version of PHP (5.3.1), but temprorary removed eAccelerator, 
+      and dbx because of missing support for this release of PHP.
+    - New version of ProFTPD (1.3.2c)
+    - New version of phpMyAdmin (3.2.4)
+    
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2009-08-01] XAMPP for Linux 1.7.2
+
+This version of XAMPP includes:
+    - Apache 2.2.12
+    - MySQL 5.1.37
+    - PHP 5.3.0
+    - Perl 5.10.0
+    - ProFTPD 1.3.2a
+    - phpMyAdmin 3.2.0.1
+    - OpenSSL 0.9.8k
+    - GD 2.0.1
+    - Freetype 2.1.7
+    - libjpeg 6b
+    - libpng 1.2.12
+    - gdbm 1.8.0
+    - zlib 1.2.3
+    - expat 1.95.2
+    - Sablotron 1.0
+    - libxml 2.7.2
+    - libxslt 1.1.22
+    - Ming 0.4.2
+    - Webalizer 2.21-02
+    - pdf class 009e
+    - ncurses 5.3
+    - mod_perl 2.0.4
+    - FreeTDS 0.63
+    - gettext 0.17
+    - IMAP C-Client 2007e
+    - OpenLDAP (client) 2.3.11
+    - mhash library 0.8.18
+    - mcrypt library 2.5.7
+    - cURL 7.19.3
+    - SQLite 2.8.17 (for PHP4 + PHP5)
+    - SQLite 3.6.16 (for PHP5 PDO SQLite)
+    - phpSQLiteAdmin 0.2
+    - libapreq 2.08
+    - eAccelerator 0.9.5.3
+    - FPDF 1.6
+    - bzip2 (library) 1.0.5
+    - PBXT 1.0.08-rc
+    - PBMS 0.5.08-alpha
+    - ICU4C Library 4.2.1
+
+New in this version of XAMPP:
+    - New version of Webalizer (2.21-02)
+    - New version of gettext (0.17)
+    - New version of SQLite (3.6.16)
+    - New version of PHP (5.3.0), but temprorary removed eAccelerator, 
+      and dbx because of missing support for this release of PHP.
+    - Added ICU4C Library (4.2.1), needed for intl support in PHP.
+    - New version of phpMyAdmin (3.2.0.1)
+    - New version of ProFTPD (1.3.2a)
+    - New version of PBXT (1.0.08-rc)
+    - New version of Ming (0.4.2)
+    - New version of Apache (2.2.12)
+    - New version of MySQL (5.1.37)
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2009-04-13] XAMPP for Linux 1.7.1
+
+This version of XAMPP includes:
+    - Apache 2.2.11
+    - MySQL 5.1.33
+    - PHP 5.2.9
+    - Perl 5.10.0
+    - ProFTPD 1.3.2
+    - phpMyAdmin 3.1.3.1
+    - OpenSSL 0.9.8k
+    - GD 2.0.1
+    - Freetype 2.1.7
+    - libjpeg 6b
+    - libpng 1.2.12
+    - gdbm 1.8.0
+    - zlib 1.2.3
+    - expat 1.95.2
+    - Sablotron 1.0
+    - libxml 2.7.2
+    - libxslt 1.1.22
+    - Ming 0.3
+    - Webalizer 2.01
+    - pdf class 009e
+    - ncurses 5.3
+    - mod_perl 2.0.4
+    - FreeTDS 0.63
+    - gettext 0.11.5
+    - IMAP C-Client 2007e
+    - OpenLDAP (client) 2.3.11
+    - mhash library 0.8.18
+    - mcrypt library 2.5.7
+    - cURL 7.19.3
+    - SQLite 2.8.17 (for PHP4 + PHP5)
+    - SQLite 3.3.17 (for PHP5 PDO SQLite)
+    - phpSQLiteAdmin 0.2
+    - libapreq 2.08
+    - eAccelerator 0.9.5.3
+    - FPDF 1.6
+    - bzip2 (library) 1.0.5
+    - PBXT (1.0.07-rc)
+    - PBMS (0.5.08-alpha)
+
+New in this version of XAMPP:
+    - Include eaccelerator shared memory, session and content caching functions
+    - New version of cURL (7.19.3)
+    - New version of PHP (5.2.9)
+    - New version of phpMyAdmin (3.1.3.1)
+    - New version of OpenSSL (0.9.8k)
+    - New version of IMAP C-Client (2007e)
+    - New version of MySQL (5.1.33)
+    - Added MySQL plugin PBMS (0.5.08-alpha), but disabled by default
+    - New version of ProFTPD (1.3.2)
+    - Introduced new security concept (all XAMPP-related web pages and phpMyAdmin 
+      are accessible by local network only)
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2008-12-20] XAMPP for Linux 1.7
+
+This version of XAMPP includes:
+    - Apache 2.2.11
+    - MySQL 5.1.30
+    - PHP 5.2.8
+    - Perl 5.10.0
+    - ProFTPD 1.3.1
+    - phpMyAdmin 3.1.1
+    - OpenSSL 0.9.8i
+    - GD 2.0.1
+    - Freetype 2.1.7
+    - libjpeg 6b
+    - libpng 1.2.12
+    - gdbm 1.8.0
+    - zlib 1.2.3
+    - expat 1.95.2
+    - Sablotron 1.0
+    - libxml 2.7.2
+    - libxslt 1.1.22
+    - Ming 0.3
+    - Webalizer 2.01
+    - pdf class 009e
+    - ncurses 5.3
+    - mod_perl 2.0.4
+    - FreeTDS 0.63
+    - gettext 0.11.5
+    - IMAP C-Client 2004e
+    - OpenLDAP (client) 2.3.11
+    - mhash library 0.8.18
+    - mcrypt library 2.5.7
+    - cURL 7.19.2
+    - SQLite 2.8.17 (for PHP4 + PHP5)
+    - SQLite 3.3.17 (for PHP5 PDO SQLite)
+    - phpSQLiteAdmin 0.2
+    - libapreq 2.08
+    - eAccelerator 0.9.5.3
+    - FPDF 1.6
+    - bzip2 (library) 1.0.5
+    - PBXT (1.0.07-rc)
+
+New in this version of XAMPP:
+    - New version of OpenSSL (0.9.8i)
+    - New version of MySQL (5.1.30)
+    - New version of Apache (2.2.10)
+    - XAMPP for Linux now needs at least version 2.3.4 of glibc 
+      (which is usually shipped in distributions since 2005)
+    - Removed PHP 4
+    - New version of bzip2 (1.0.5)
+    - New version of cURL (7.19.2)
+    - New version of libxml (2.7.2)
+    - Fixed two possible SQL injections in cds.php and phonebook.php
+      (thanks to Jaykishan Nirmal for reporting this issues)
+    - New version of FPDF (1.6)
+    - Added MySQL plugin PBXT (1.0.07-rc)
+    - New version of PHP (5.2.8)
+    - New version of phpMyAdmin (3.1.1)
+    - New version of Apache (2.2.11)
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2008-09-24] XAMPP for Linux 1.6.8a
+
+This version of XAMPP includes:
+    - Apache 2.2.9
+    - MySQL 5.0.67
+    - PHP 4.4.9
+    - PHP 5.2.6
+    - Perl 5.10.0
+    - ProFTPD 1.3.1
+    - phpMyAdmin 2.11.9.2
+    - OpenSSL 0.9.8h
+    - GD 2.0.1
+    - Freetype 2.1.7
+    - libjpeg 6b
+    - libpng 1.2.12
+    - gdbm 1.8.0
+    - zlib 1.2.3
+    - expat 1.95.2
+    - Sablotron 1.0
+    - libxml 2.6.31
+    - libxslt 1.1.22
+    - Ming 0.3
+    - Webalizer 2.01
+    - pdf class 009e
+    - ncurses 5.8
+    - mod_perl 2.0.4
+    - FreeTDS 0.63
+    - gettext 0.11.5
+    - IMAP C-Client 2004e
+    - OpenLDAP (client) 2.3.11
+    - mhash library 0.8.18
+    - mcrypt library 2.5.7
+    - cURL 7.18.2
+    - SQLite 2.8.17 (for PHP4 + PHP5)
+    - SQLite 3.3.17 (for PHP5 PDO SQLite)
+    - phpSQLiteAdmin 0.2
+    - libapreq 2.08
+    - eAccelerator 0.9.5.3
+    - FPDF 1.53
+
+New in this version of XAMPP:
+    - New version of MySQL (5.0.67)
+    - New version of PHP (4.4.9)
+    - MySQL: Enabled InnoDB by default to match Windows version of XAMPP
+    - New version of phpMyAdmin (2.11.9.2)
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2008-07-06] XAMPP for Linux 1.6.7
+
+This version of XAMPP includes:
+    - Apache 2.2.9
+    - MySQL 5.0.51b
+    - PHP 4.4.8 
+    - PHP 5.2.6
+    - Perl 5.10.0
+    - ProFTPD 1.3.1
+    - phpMyAdmin 2.11.7
+    - OpenSSL 0.9.8h
+    - GD 2.0.1
+    - Freetype 2.1.7
+    - libjpeg 6b
+    - libpng 1.2.12
+    - gdbm 1.8.0
+    - zlib 1.2.3
+    - expat 1.95.2
+    - Sablotron 1.0
+    - libxml 2.6.31
+    - libxslt 1.1.22
+    - Ming 0.3
+    - Webalizer 2.01
+    - pdf class 009e
+    - ncurses 5.8
+    - mod_perl 2.0.4
+    - FreeTDS 0.63
+    - gettext 0.11.5
+    - IMAP C-Client 2004e
+    - OpenLDAP (client) 2.3.11
+    - mhash library 0.8.18
+    - mcrypt library 2.5.7
+    - cURL 7.18.2
+    - SQLite 2.8.17 (for PHP4 + PHP5)
+    - SQLite 3.3.17 (for PHP5 PDO SQLite)
+    - phpSQLiteAdmin 0.2
+    - libapreq 2.08
+    - eAccelerator 0.9.5.3
+    - FPDF 1.53
+
+New in this version of XAMPP:
+    - New version of mod_perl (2.0.4)
+    - New version of cURL (7.18.2)
+    - New version of OpenSSL (0.9.8h)
+    - New version of Apache (2.2.9)
+    - New version of MySQL (5.0.51b)
+    - New version of PHP (5.2.6)
+    - New version of phpMyAdmin (2.11.6)
+    - New version of eAccelerator (0.9.5.3)
+    - New version of phpMyAdmin (2.11.7)
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2008-02-26] XAMPP for Linux 1.6.6a
+
+This version of XAMPP includes:
+    - Apache 2.2.8
+    - MySQL 5.0.51a
+    - PHP 4.4.8 
+    - PHP 5.2.5
+    - Perl 5.10.0
+    - ProFTPD 1.3.1
+    - phpMyAdmin 2.11.4
+    - OpenSSL 0.9.8e
+    - GD 2.0.1
+    - Freetype 2.1.7
+    - libjpeg 6b
+    - libpng 1.2.12
+    - gdbm 1.8.0
+    - zlib 1.2.3
+    - expat 1.95.2
+    - Sablotron 1.0
+    - libxml 2.6.31
+    - libxslt 1.1.22
+    - Ming 0.3
+    - Webalizer 2.01
+    - pdf class 009e
+    - ncurses 5.8
+    - mod_perl 2.0.2
+    - FreeTDS 0.63
+    - gettext 0.11.5
+    - IMAP C-Client 2004e
+    - OpenLDAP (client) 2.3.11
+    - mhash library 0.8.18
+    - mcrypt library 2.5.7
+    - cURL 7.17.1
+    - SQLite 2.8.17 (for PHP4 + PHP5)
+    - SQLite 3.3.17 (for PHP5 PDO SQLite)
+    - phpSQLiteAdmin 0.2
+    - libapreq 2.08
+    - eAccelerator 0.9.5.2
+    - FPDF 1.53
+
+New in this version of XAMPP:
+    - New version of libxslt (1.1.22)
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2008-02-11] XAMPP for Linux 1.6.6
+
+This version of XAMPP includes:
+    - Apache 2.2.8
+    - MySQL 5.0.51a
+    - PHP 4.4.8 
+    - PHP 5.2.5
+    - Perl 5.10.0
+    - ProFTPD 1.3.1
+    - phpMyAdmin 2.11.4
+    - OpenSSL 0.9.8e
+    - GD 2.0.1
+    - Freetype 2.1.7
+    - libjpeg 6b
+    - libpng 1.2.12
+    - gdbm 1.8.0
+    - zlib 1.2.3
+    - expat 1.95.2
+    - Sablotron 1.0
+    - libxml 2.6.31
+    - libxslt 1.1.8
+    - Ming 0.3
+    - Webalizer 2.01
+    - pdf class 009e
+    - ncurses 5.8
+    - mod_perl 2.0.2
+    - FreeTDS 0.63
+    - gettext 0.11.5
+    - IMAP C-Client 2004e
+    - OpenLDAP (client) 2.3.11
+    - mhash library 0.8.18
+    - mcrypt library 2.5.7
+    - cURL 7.17.1
+    - SQLite 2.8.17 (for PHP4 + PHP5)
+    - SQLite 3.3.17 (for PHP5 PDO SQLite)
+    - phpSQLiteAdmin 0.2
+    - libapreq 2.08
+    - eAccelerator 0.9.5.2
+    - FPDF 1.53
+
+New in this version of XAMPP:
+    - New version of Apache (2.2.8)
+    - New version of Perl (5.10.0)
+    - New version of PHP (4.4.8)
+    - New version of phpMyAdmin (2.11.4)
+    - New version of libxml (2.6.31)
+    - New version of cURL (7.17.1)
+    - New version of libapreq (2.08)
+    - New version of MySQL (5.0.51a)
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2007-12-25] XAMPP for Linux 1.6.5a
+
+    - Fixed problem with phpMyAdmin's linked-infratructure tables
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2007-12-23] XAMPP for Linux 1.6.5
+
+This version of XAMPP includes:
+    - Apache 2.2.6
+    - MySQL 5.0.51
+    - PHP 4.4.7 
+    - PHP 5.2.5
+    - Perl 5.8.7
+    - ProFTPD 1.3.1
+    - phpMyAdmin 2.11.3
+    - OpenSSL 0.9.8e
+    - GD 2.0.1
+    - Freetype 2.1.7
+    - libjpeg 6b
+    - libpng 1.2.12
+    - gdbm 1.8.0
+    - zlib 1.2.3
+    - expat 1.95.2
+    - Sablotron 1.0
+    - libxml 2.6.11
+    - libxslt 1.1.8
+    - Ming 0.3
+    - Webalizer 2.01
+    - pdf class 009e
+    - ncurses 5.8
+    - mod_perl 2.0.2
+    - FreeTDS 0.63
+    - gettext 0.11.5
+    - IMAP C-Client 2004e
+    - OpenLDAP (client) 2.3.11
+    - mhash library 0.8.18
+    - mcrypt library 2.5.7
+    - cURL 7.13.1
+    - SQLite 2.8.17 (for PHP4 + PHP5)
+    - SQLite 3.3.17 (for PHP5 PDO SQLite)
+    - phpSQLiteAdmin 0.2
+    - libapreq 2.07
+    - eAccelerator 0.9.5.2
+    - FPDF 1.53
+
+New in this version of XAMPP:
+    - New version of PHP (5.2.5)
+    - New version of MySQL (5.0.51)
+    - New version of phpMyAdmin (2.11.3)
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2007-10-07] XAMPP for Linux 1.6.4
+
+This version of XAMPP includes:
+    - Apache 2.2.6
+    - MySQL 5.0.45
+    - PHP 4.4.7 
+    - PHP 5.2.4
+    - Perl 5.8.7
+    - ProFTPD 1.3.1
+    - phpMyAdmin 2.11.1
+    - OpenSSL 0.9.8e
+    - GD 2.0.1
+    - Freetype 2.1.7
+    - libjpeg 6b
+    - libpng 1.2.12
+    - gdbm 1.8.0
+    - zlib 1.2.3
+    - expat 1.95.2
+    - Sablotron 1.0
+    - libxml 2.6.11
+    - libxslt 1.1.8
+    - Ming 0.3
+    - Webalizer 2.01
+    - pdf class 009e
+    - ncurses 5.8
+    - mod_perl 2.0.2
+    - FreeTDS 0.63
+    - gettext 0.11.5
+    - IMAP C-Client 2004e
+    - OpenLDAP (client) 2.3.11
+    - mhash library 0.8.18
+    - mcrypt library 2.5.7
+    - cURL 7.13.1
+    - SQLite 2.8.17 (for PHP4 + PHP5)
+    - SQLite 3.3.17 (for PHP5 PDO SQLite)
+    - phpSQLiteAdmin 0.2
+    - libapreq 2.07
+    - eAccelerator 0.9.5.2
+    - FPDF 1.53
+
+New in this version of XAMPP:
+    - New version of PHP (5.2.4)
+    - PHP Oracle extension dropped support for Oracle 9, and needs now at least Oracle 10
+    - PHP Orcale extension now supports "Temporars LOB" and "Collections support"
+    - New version of Apache (2.2.6)
+    - New version of eAccelerator (0.9.5.2)
+    - New version of phpMyAdmin (2.11.1)
+    - Renamed phpMyAdmin's MySQL tables to lowercase to better fit its defaults settings
+    - New version of ProFTPD (1.3.1)
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2007-08-04] XAMPP for Linux 1.6.3b
+
+    - Fixed problem with start script on 64-bit systems.
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2007-07-26] XAMPP for Linux 1.6.3a
+
+    - Fixed problem with PHP switch.
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2007-07-22] XAMPP for Linux 1.6.3
+
+This version of XAMPP includes:
+    - Apache 2.2.4
+    - MySQL 5.0.45
+    - PHP 4.4.7 
+    - PHP 5.2.3
+    - Perl 5.8.7
+    - ProFTPD 1.3.0a
+    - phpMyAdmin 2.10.3
+    - OpenSSL 0.9.8e
+    - GD 2.0.1
+    - Freetype 2.1.7
+    - libjpeg 6b
+    - libpng 1.2.12
+    - gdbm 1.8.0
+    - zlib 1.2.3
+    - expat 1.95.2
+    - Sablotron 1.0
+    - libxml 2.6.11
+    - libxslt 1.1.8
+    - Ming 0.3
+    - Webalizer 2.01
+    - pdf class 009e
+    - ncurses 5.8
+    - mod_perl 2.0.2
+    - FreeTDS 0.63
+    - gettext 0.11.5
+    - IMAP C-Client 2004e
+    - OpenLDAP (client) 2.3.11
+    - mhash library 0.8.18
+    - mcrypt library 2.5.7
+    - cURL 7.13.1
+    - SQLite 2.8.17 (for PHP4 + PHP5)
+    - SQLite 3.3.17 (for PHP5 PDO SQLite)
+    - phpSQLiteAdmin 0.2
+    - libapreq 2.07
+    - eAccelerator 0.9.5.1
+    - FPDF 1.53
+
+New in this version of XAMPP:
+    - New version of PHP (5.2.3)
+    - New version of MySQL (5.0.45)
+    - New version of phpMyAdmin (2.10.3)
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2007-05-29] XAMPP for Linux 1.6.2
+
+This version of XAMPP includes:
+    - Apache 2.2.4
+    - MySQL 5.0.41
+    - PHP 4.4.7 
+    - PHP 5.2.2
+    - Perl 5.8.7
+    - ProFTPD 1.3.0a
+    - phpMyAdmin 2.10.1
+    - OpenSSL 0.9.8e
+    - GD 2.0.1
+    - Freetype 2.1.7
+    - libjpeg 6b
+    - libpng 1.2.12
+    - gdbm 1.8.0
+    - zlib 1.2.3
+    - expat 1.95.2
+    - Sablotron 1.0
+    - libxml 2.6.11
+    - libxslt 1.1.8
+    - Ming 0.3
+    - Webalizer 2.01
+    - pdf class 009e
+    - ncurses 5.8
+    - mod_perl 2.0.2
+    - FreeTDS 0.63
+    - gettext 0.11.5
+    - IMAP C-Client 2004e
+    - OpenLDAP (client) 2.3.11
+    - mhash library 0.8.18
+    - mcrypt library 2.5.7
+    - cURL 7.13.1
+    - SQLite 2.8.17 (for PHP4 + PHP5)
+    - SQLite 3.3.17 (for PHP5 PDO SQLite)
+    - phpSQLiteAdmin 0.2
+    - libapreq 2.07
+    - eAccelerator 0.9.5.1
+    - FPDF 1.53
+
+New in this version of XAMPP:
+    - New version of PHP (4.4.7)
+    - New version of PHP (5.2.2)
+    - New version of phpMyAdmin (2.10.1)
+    - New version of SQLite (3.3.17)
+    - New version of MySQL (5.0.41)
+    - New version of eAccelerator (0.9.5.1)
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2007-04-18] XAMPP for Linux 1.6.1
+
+This version of XAMPP includes:
+    - Apache 2.2.4
+    - MySQL 5.0.37
+    - PHP 4.4.6 
+    - PHP 5.2.1
+    - Perl 5.8.7
+    - ProFTPD 1.3.0a
+    - phpMyAdmin 2.10.0.2
+    - OpenSSL 0.9.8e
+    - GD 2.0.1
+    - Freetype 2.1.7
+    - libjpeg 6b
+    - libpng 1.2.12
+    - gdbm 1.8.0
+    - zlib 1.2.3
+    - expat 1.95.2
+    - Sablotron 1.0
+    - libxml 2.6.11
+    - libxslt 1.1.8
+    - Ming 0.3
+    - Webalizer 2.01
+    - pdf class 009e
+    - ncurses 5.8
+    - mod_perl 2.0.2
+    - FreeTDS 0.63
+    - gettext 0.11.5
+    - IMAP C-Client 2004e
+    - OpenLDAP (client) 2.3.11
+    - mhash library 0.8.18
+    - mcrypt library 2.5.7
+    - cURL 7.13.1
+    - SQLite 2.8.17 (for PHP4 + PHP5)
+    - SQLite 3.2.8 (for PHP5 PDO SQLite)
+    - phpSQLiteAdmin 0.2
+    - libapreq 2.07
+    - eAccelerator 0.9.5
+    - FPDF 1.53
+
+New in this version of XAMPP:
+    - New version of PHP (4.4.6)
+    - New version of MySQL (5.0.37)
+    - New version of phpMyAdmin (2.10.0.2)
+    - Forced eAccelerator to use fcntl-based instead of sysvipc-based semaphores
+      (because of nobody UID problems on Red Hat/Fedora)
+    - New version of OpenSSL (0.9.8e)
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2007-02-18] XAMPP for Linux 1.6
+
+This version of XAMPP includes:
+    - Apache 2.2.4
+    - MySQL 5.0.33
+    - PHP 4.4.5 
+    - PHP 5.2.1
+    - Perl 5.8.7
+    - ProFTPD 1.3.0a
+    - phpMyAdmin 2.9.2
+    - OpenSSL 0.9.8d
+    - GD 2.0.1
+    - Freetype 2.1.7
+    - libjpeg 6b
+    - libpng 1.2.12
+    - gdbm 1.8.0
+    - zlib 1.2.3
+    - expat 1.95.2
+    - Sablotron 1.0
+    - libxml 2.6.11
+    - libxslt 1.1.8
+    - Ming 0.3
+    - Webalizer 2.01
+    - pdf class 009e
+    - ncurses 5.8
+    - mod_perl 2.0.2
+    - FreeTDS 0.63
+    - gettext 0.11.5
+    - IMAP C-Client 2004e
+    - OpenLDAP (client) 2.3.11
+    - mhash library 0.8.18
+    - mcrypt library 2.5.7
+    - cURL 7.13.1
+    - SQLite 2.8.17 (for PHP4 + PHP5)
+    - SQLite 3.2.8 (for PHP5 PDO SQLite)
+    - phpSQLiteAdmin 0.2
+    - libapreq 2.07
+    - eAccelerator 0.9.5
+    - FPDF 1.53
+
+New in this version of XAMPP:
+    - New version of MySQL (5.0.33)
+    - New version of Apache (2.2.4)
+    - New version of phpMyAdmin (2.9.2)
+    - New version of PHP (5.2.1)
+    - New version of PHP (4.4.5)
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2006-11-28] XAMPP for Linux 1.5.5a
+
+This version of XAMPP includes:
+    - Apache 2.2.3
+    - MySQL 5.0.27
+    - PHP 4.4.4 
+    - PHP 5.2.0
+    - Perl 5.8.7
+    - ProFTPD 1.3.0a
+    - phpMyAdmin 2.9.1
+    - OpenSSL 0.9.8d
+    - GD 2.0.1
+    - Freetype 2.1.7
+    - libjpeg 6b
+    - libpng 1.2.12
+    - gdbm 1.8.0
+    - zlib 1.2.3
+    - expat 1.95.2
+    - Sablotron 1.0
+    - libxml 2.6.11
+    - libxslt 1.1.8
+    - Ming 0.3
+    - Webalizer 2.01
+    - pdf class 009e
+    - ncurses 5.8
+    - mod_perl 2.0.2
+    - FreeTDS 0.63
+    - gettext 0.11.5
+    - IMAP C-Client 2004e
+    - OpenLDAP (client) 2.3.11
+    - mhash library 0.8.18
+    - mcrypt library 2.5.7
+    - cURL 7.13.1
+    - SQLite 2.8.17 (for PHP4 + PHP5)
+    - SQLite 3.2.8 (for PHP5 PDO SQLite)
+    - phpSQLiteAdmin 0.2
+    - libapreq 2.07
+    - eAccelerator 0.9.5
+    - FPDF 1.53
+
+New in this version of XAMPP:
+    - New version of ProFTPD (1.3.0a)
+      [security related update, see http://bugs.proftpd.org/show_bug.cgi?id=2858]
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2006-11-26] XAMPP for Linux 1.5.5
+
+This version of XAMPP includes:
+    - Apache 2.2.3
+    - MySQL 5.0.27
+    - PHP 4.4.4 
+    - PHP 5.2.0
+    - Perl 5.8.7
+    - ProFTPD 1.3.0
+    - phpMyAdmin 2.9.1
+    - OpenSSL 0.9.8d
+    - GD 2.0.1
+    - Freetype 2.1.7
+    - libjpeg 6b
+    - libpng 1.2.12
+    - gdbm 1.8.0
+    - zlib 1.2.3
+    - expat 1.95.2
+    - Sablotron 1.0
+    - libxml 2.6.11
+    - libxslt 1.1.8
+    - Ming 0.3
+    - Webalizer 2.01
+    - pdf class 009e
+    - ncurses 5.8
+    - mod_perl 2.0.2
+    - FreeTDS 0.63
+    - gettext 0.11.5
+    - IMAP C-Client 2004e
+    - OpenLDAP (client) 2.3.11
+    - mhash library 0.8.18
+    - mcrypt library 2.5.7
+    - cURL 7.13.1
+    - SQLite 2.8.17 (for PHP4 + PHP5)
+    - SQLite 3.2.8 (for PHP5 PDO SQLite)
+    - phpSQLiteAdmin 0.2
+    - libapreq 2.07
+    - eAccelerator 0.9.5
+    - FPDF 1.53
+
+New in this version of XAMPP:
+    - Japanese support added 
+    - New version of MySQL (5.0.27)
+    - New version of PHP (5.2.0)
+    - New version of phpMyAdmin (2.9.1)
+    - New version of eAccelerator (0.9.5)
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2006-09-29] XAMPP for Linux 1.5.4a
+
+This version of XAMPP includes:
+    - Apache 2.2.3
+    - MySQL 5.0.24a
+    - PHP 4.4.4 
+    - PHP 5.1.6
+    - Perl 5.8.7
+    - ProFTPD 1.3.0
+    - phpMyAdmin 2.8.2.4
+    - OpenSSL 0.9.8d
+    - GD 2.0.1
+    - Freetype 2.1.7
+    - libjpeg 6b
+    - libpng 1.2.12
+    - gdbm 1.8.0
+    - zlib 1.2.3
+    - expat 1.95.2
+    - Sablotron 1.0
+    - libxml 2.6.11
+    - libxslt 1.1.8
+    - Ming 0.3
+    - Webalizer 2.01
+    - pdf class 009e
+    - ncurses 5.8
+    - mod_perl 2.0.2
+    - FreeTDS 0.63
+    - gettext 0.11.5
+    - IMAP C-Client 2004e
+    - OpenLDAP (client) 2.3.11
+    - mhash library 0.8.18
+    - mcrypt library 2.5.7
+    - cURL 7.13.1
+    - SQLite 2.8.17 (for PHP4 + PHP5)
+    - SQLite 3.2.8 (for PHP5 PDO SQLite)
+    - phpSQLiteAdmin 0.2
+    - libapreq 2.07
+    - eAccelerator 0.9.4
+    - FPDF 1.53
+
+New in this version of XAMPP:
+    - New version of libpng (1.2.12)
+    - New version of OpenSSL (0.9.8d)
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2006-09-10] XAMPP for Linux 1.5.4
+
+This version of XAMPP includes:
+    - Apache 2.2.3
+    - MySQL 5.0.24a
+    - PHP 4.4.4 
+    - PHP 5.1.6
+    - Perl 5.8.7
+    - ProFTPD 1.3.0
+    - phpMyAdmin 2.8.2.4
+    - OpenSSL 0.9.8c
+    - GD 2.0.1
+    - Freetype 2.1.7
+    - libjpeg 6b
+    - libpng 1.2.7
+    - gdbm 1.8.0
+    - zlib 1.2.3
+    - expat 1.2
+    - Sablotron 1.0
+    - libxml 2.6.11
+    - libxslt 1.1.8
+    - Ming 0.3
+    - Webalizer 2.01
+    - pdf class 009e
+    - ncurses 5.8
+    - mod_perl 2.0.2
+    - FreeTDS 0.63
+    - gettext 0.11.5
+    - IMAP C-Client 2004e
+    - OpenLDAP (client) 2.3.11
+    - mhash library 0.8.18
+    - mcrypt library 2.5.7
+    - cURL 7.13.1
+    - SQLite 2.8.17 (for PHP4 + PHP5)
+    - SQLite 3.2.8 (for PHP5 PDO SQLite)
+    - phpSQLiteAdmin 0.2
+    - libapreq 2.07
+    - eAccelerator 0.9.4
+    - FPDF 1.53
+
+New in this version of XAMPP:
+    - New version of Apache (2.2.3)
+    - PHP switch bug fixed 
+    - New version of PHP (4.4.4)
+    - New version of phpMyAdmin (2.8.2.4)
+    - New version of PHP (5.1.6)
+    - New version of MySQL (5.0.24a)
+    - New version of OpenSSL (0.9.8c)
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2006-05-30] XAMPP for Linux 1.5.3a
+
+    - Disabled Apache DBD module in httpd.conf because of many errors 
+      in error_log.
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2006-05-28] XAMPP for Linux 1.5.3
+
+This version of XAMPP includes:
+    - Apache 2.2.2
+    - MySQL 5.0.21
+    - PHP 4.4.2 
+    - PHP 5.1.4
+    - Perl 5.8.7
+    - ProFTPD 1.3.0
+    - phpMyAdmin 2.8.1
+    - OpenSSL 0.9.8b
+    - GD 2.0.1
+    - Freetype 2.1.7
+    - libjpeg 6b
+    - libpng 1.2.7
+    - gdbm 1.8.0
+    - zlib 1.2.3
+    - expat 1.2
+    - Sablotron 1.0
+    - libxml 2.6.11
+    - libxslt 1.1.8
+    - Ming 0.3
+    - Webalizer 2.01
+    - pdf class 009e
+    - ncurses 5.8
+    - mod_perl 2.0.2
+    - FreeTDS 0.63
+    - gettext 0.11.5
+    - IMAP C-Client 2004e
+    - OpenLDAP (client) 2.3.11
+    - mhash library 0.8.18
+    - mcrypt library 2.5.7
+    - cURL 7.13.1
+    - SQLite 2.8.17 (for PHP4 + PHP5)
+    - SQLite 3.2.8 (for PHP5 PDO SQLite)
+    - phpSQLiteAdmin 0.2
+    - libapreq 2.07
+    - eAccelerator 0.9.4
+    - FPDF 1.53
+
+New in this version of XAMPP:
+    - New version of ProFTPD (1.3.0)
+    - New version of MySQL (5.0.21)
+    - New version of Ming (0.3.0)
+    - New version of PHP (5.1.4)
+    - New version of Apache (2.2.2)
+    - New version of mod_perl (2.0.2)
+    - New version of libapreq (2.07)
+    - New version of OpenSSL (0.9.8b)
+    - New version of phpMyAdmin (2.8.1)
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2006-04-23] XAMPP for Linux 1.5.2
+
+This version of XAMPP includes:
+    - Apache 2.2.0
+    - MySQL 5.0.20
+    - PHP 4.4.2 
+    - PHP 5.1.2
+    - Perl 5.8.7
+    - ProFTPD 1.2.10
+    - phpMyAdmin 2.8.0.3
+    - OpenSSL 0.9.8a
+    - GD 2.0.1
+    - Freetype 2.1.7
+    - libjpeg 6b
+    - libpng 1.2.7
+    - gdbm 1.8.0
+    - zlib 1.2.3
+    - expat 1.2
+    - Sablotron 1.0
+    - libxml 2.6.11
+    - libxslt 1.1.8
+    - Ming 0.2a
+    - Webalizer 2.01
+    - pdf class 009e
+    - ncurses 5.8
+    - mod_perl 2.0.1
+    - FreeTDS 0.63
+    - gettext 0.11.5
+    - IMAP C-Client 2004e
+    - OpenLDAP (client) 2.3.11
+    - mhash library 0.8.18
+    - mcrypt library 2.5.7
+    - cURL 7.13.1
+    - SQLite 2.8.17 (for PHP4 + PHP5)
+    - SQLite 3.2.8 (for PHP5 PDO SQLite)
+    - phpSQLiteAdmin 0.2
+    - libapreq 2.06-dev
+    - eAccelerator 0.9.4
+    - FPDF 1.53
+
+New in this version of XAMPP:
+    - New version of PHP (5.1.2)
+    - New version of PHP (4.4.2)
+    - New version of SQLite (2.8.17)
+    - Added SQLite3 (3.2.8)
+    - Added Sybase support to PHP 5
+    - Added DBX support to PHP 4 + 5
+    - Added IPv6 support to Apache
+    - Added XAMPP Control Panel (0.6)
+      [needs Python to run]
+    - New version of eAccelerator (0.9.4)
+    - New version of phpMyAdmin (2.8.0.3)
+    - New version of MySQL (5.0.20)
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2006-01-08] XAMPP for Linux 1.5.1
+
+This version of XAMPP includes:
+    - Apache 2.2.0
+    - MySQL 5.0.18
+    - PHP 4.4.1 
+    - PHP 5.1.1
+    - Perl 5.8.7
+    - ProFTPD 1.2.10
+    - phpMyAdmin 2.7.0-pl2
+    - OpenSSL 0.9.8a
+    - GD 2.0.1
+    - Freetype 2.1.7
+    - libjpeg 6b
+    - libpng 1.2.7
+    - gdbm 1.8.0
+    - zlib 1.2.3
+    - expat 1.2
+    - Sablotron 1.0
+    - libxml 2.6.11
+    - libxslt 1.1.8
+    - Ming 0.2a
+    - Webalizer 2.01
+    - pdf class 009e
+    - ncurses 5.8
+    - mod_perl 2.0.1
+    - FreeTDS 0.63
+    - gettext 0.11.5
+    - IMAP C-Client 2004e
+    - OpenLDAP (client) 2.3.11
+    - mhash library 0.8.18
+    - mcrypt library 2.5.7
+    - cURL 7.13.1
+    - SQLite 2.8.9 (in case of PHP5: 2.8.14)
+    - phpSQLiteAdmin 0.2
+    - libapreq 2.06-dev
+    - eAccelerator 0.9.3
+    - FPDF 1.53
+
+New in this version of XAMPP:
+    - Added DIO support to PHP5
+    - New version of PHP (5.1.1)
+    - Warning: eAccelerator currently doesn't support PHP5.1
+    - New version of Apache (2.2.0)
+    - Portuguese (Brazil) language support added (Thanks to Marcio)
+    - New version of libapreq (2.06-dev)
+    - New version of MySQL (5.0.18)
+    - New version of phpMyAdmin (2.7.0-pl2)
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2005-11-02] XAMPP for Linux 1.5
+
+This version of XAMPP includes:
+    - Apache 2.0.55
+    - MySQL 5.0.15
+    - PHP 4.4.1 
+    - PHP 5.0.5
+    - Perl 5.8.7
+    - ProFTPD 1.2.10
+    - phpMyAdmin 2.6.3-pl3
+    - OpenSSL 0.9.8a
+    - GD 2.0.1
+    - Freetype 2.1.7
+    - libjpeg 6b
+    - libpng 1.2.7
+    - gdbm 1.8.0
+    - zlib 1.2.3
+    - expat 1.2
+    - Sablotron 1.0
+    - libxml 2.6.11
+    - libxslt 1.1.8
+    - Ming 0.2a
+    - Webalizer 2.01
+    - pdf class 009e
+    - ncurses 5.8
+    - mod_perl 2.0.1
+    - FreeTDS 0.63
+    - gettext 0.11.5
+    - IMAP C-Client 2004e
+    - OpenLDAP (client) 2.3.11
+    - mhash library 0.8.18
+    - mcrypt library 2.5.7
+    - cURL 7.13.1
+    - SQLite 2.8.9 (in case of PHP5: 2.8.14)
+    - phpSQLiteAdmin 0.2
+    - eAccelerator 0.9.3
+    - FPDF 1.53
+
+New in this version of XAMPP:
+    - Added iconv support to PHP4
+    - New version of Apache (2.0.55)
+    - New version of OpenSSL (0.9.8a)
+    - New version of phpMyAdmin (2.6.4-pl3)
+    - Italian language support replaced by a XAMPP for Linux specific
+      version (Thanks to Francesco Rossi)
+    - New version of OpenLDAP (2.3.11)
+    - New version of MySQL (5.0.15)
+    - Added hack to let XAMPP work with SELinux
+      (see share/lampp/selinux)
+    - New version of PHP (4.4.1)
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2005-09-21] XAMPP for Linux 1.4.16
+
+This version of XAMPP includes:
+    - Apache 2.0.54
+    - MySQL 4.1.14
+    - PHP 4.4.0 
+    - PHP 5.0.5
+    - Perl 5.8.7
+    - ProFTPD 1.2.10
+    - phpMyAdmin 2.6.3-pl1
+    - OpenSSL 0.9.8
+    - GD 2.0.1
+    - Freetype 2.1.7
+    - libjpeg 6b
+    - libpng 1.2.7
+    - gdbm 1.8.0
+    - zlib 1.2.3
+    - expat 1.2
+    - Sablotron 1.0
+    - libxml 2.6.11
+    - libxslt 1.1.8
+    - Ming 0.2a
+    - Webalizer 2.01
+    - pdf class 009e
+    - ncurses 5.8
+    - mod_perl 2.0.1
+    - FreeTDS 0.63
+    - gettext 0.11.5
+    - IMAP C-Client 2004e
+    - OpenLDAP (client) 2.2.13
+    - mhash library 0.8.18
+    - mcrypt library 2.5.7
+    - cURL 7.13.1
+    - SQLite 2.8.9 (in case of PHP5: 2.8.14)
+    - phpSQLiteAdmin 0.2
+    - eAccelerator 0.9.3
+    - FPDF 1.53
+
+New in this version of XAMPP:
+    - New version of MySQL (4.1.14)
+    - Added FPDF (1.53)
+    - Added PostgeSQL support to PHP
+    - New version of PHP (5.0.5)
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2005-08-15] XAMPP for Linux 1.4.15
+
+This version of XAMPP includes:
+    - Apache 2.0.54
+    - MySQL 4.1.13
+    - PHP 4.4.0 
+    - PHP 5.0.4
+    - Perl 5.8.7
+    - ProFTPD 1.2.10
+    - phpMyAdmin 2.6.3-pl1
+    - OpenSSL 0.9.8
+    - GD 2.0.1
+    - Freetype 2.1.7
+    - libjpeg 6b
+    - libpng 1.2.7
+    - gdbm 1.8.0
+    - zlib 1.2.3
+    - expat 1.2
+    - Sablotron 1.0
+    - libxml 2.6.11
+    - libxslt 1.1.8
+    - Ming 0.2a
+    - Webalizer 2.01
+    - pdf class 009e
+    - ncurses 5.8
+    - mod_perl 2.0.1
+    - FreeTDS 0.63
+    - gettext 0.11.5
+    - IMAP C-Client 2004e
+    - OpenLDAP (client) 2.2.13
+    - mhash library 0.8.18
+    - mcrypt library 2.5.7
+    - cURL 7.13.1
+    - SQLite 2.8.9 (in case of PHP5: 2.8.14)
+    - phpSQLiteAdmin 0.2
+    - eAccelerator 0.9.3
+
+New in this version of XAMPP:
+    - New version of OpenSSL (0.9.8)
+    - New version of zlib (1.2.3)
+    - New version of Perl (5.8.7)
+    - New version of PHP (4.4.0)
+    - New version of phpMyAdmin (2.6.3-pl1)
+    - New version of mod_perl (2.0.1)
+    - Added phpMyAdmin's XAMPP theme (Thanks to Michael Keck)
+    - New version of FreeTDS (0.63)
+    - New version of MySQL (4.1.13)
+    - New version of IMAP C-Client (2004e)
+    - Added /opt/lampp/share/lampp/configures.tar.gz
+      (contains all configure commands used to build XAMPP for Linux)
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2005-06-20] XAMPP for Linux 1.4.14
+
+This version of XAMPP includes:
+    - Apache 2.0.54
+    - MySQL 4.1.12
+    - PHP 4.3.11 
+    - PHP 5.0.4
+    - Perl 5.8.6
+    - ProFTPD 1.2.10
+    - phpMyAdmin 2.6.2-pl1
+    - OpenSSL 0.9.7g
+    - GD 2.0.1
+    - Freetype 2.1.7
+    - libjpeg 6b
+    - libpng 1.2.7
+    - gdbm 1.8.0
+    - zlib 1.1.4
+    - expat 1.2
+    - Sablotron 1.0
+    - libxml 2.6.11
+    - libxslt 1.1.8
+    - Ming 0.2a
+    - Webalizer 2.01
+    - pdf class 009e
+    - ncurses 5.8
+    - mod_perl 2.0.0-RC4
+    - FreeTDS 0.62.4
+    - gettext 0.11.5
+    - IMAP C-Client 2002b
+    - OpenLDAP (client) 2.2.13
+    - mhash library 0.8.18
+    - mcrypt library 2.5.7
+    - cURL 7.13.1
+    - SQLite 2.8.9 (in case of PHP5: 2.8.14)
+    - phpSQLiteAdmin 0.2
+    - eAccelerator 0.9.3
+
+New in this version of XAMPP:
+    - New version of Apache (2.0.54)
+    - New version of OpenSSL (0.9.7g)
+    - New version of MySQL (4.1.12)
+    - New version of eAccelerator (0.9.3)
+    - Fixed a security issue with lang.php
+      (Thanks to KryShAAm from P31Crew)
+    - New version of phpMyAdmin (2.6.2-pl1)
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2005-04-10] XAMPP for Linux 1.4.13
+
+This version of XAMPP includes:
+    - Apache 2.0.53
+    - MySQL 4.1.11
+    - PHP 4.3.11 
+    - PHP 5.0.4
+    - Perl 5.8.6
+    - ProFTPD 1.2.10
+    - phpMyAdmin 2.6.1-pl3
+    - OpenSSL 0.9.7d
+    - GD 2.0.1
+    - Freetype 2.1.7
+    - libjpeg 6b
+    - libpng 1.2.7
+    - gdbm 1.8.0
+    - zlib 1.1.4
+    - expat 1.2
+    - Sablotron 1.0
+    - libxml 2.6.11
+    - libxslt 1.1.8
+    - Ming 0.2a
+    - Webalizer 2.01
+    - pdf class 009e
+    - ncurses 5.8
+    - mod_perl 2.0.0-RC4
+    - FreeTDS 0.62.4
+    - gettext 0.11.5
+    - IMAP C-Client 2002b
+    - OpenLDAP (client) 2.2.13
+    - mhash library 0.8.18
+    - mcrypt library 2.5.7
+    - cURL 7.13.1
+    - SQLite 2.8.9 (in case of PHP5: 2.8.14)
+    - phpSQLiteAdmin 0.2
+    - eAccelerator 0.9.2a
+
+New in this version of XAMPP:
+    - New version of cURL (7.13.1)
+    - Norwegian language support added (Thanks to Ptomter)
+    - Italian language support added (Thanks to Mauro Felice)
+    - New version of PHP (4.3.11)
+    - New version of PHP (5.0.4)
+    - New version of MySQL (4.1.11)
+    - New version of phpMyAdmin (2.6.1-pl3)
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2005-02-20] XAMPP for Linux 1.4.12
+
+This version of XAMPP includes:
+    - Apache 2.0.53
+    - MySQL 4.1.10
+    - PHP 4.3.10 
+    - PHP 5.0.3
+    - Perl 5.8.6
+    - ProFTPD 1.2.10
+    - phpMyAdmin 2.6.1
+    - OpenSSL 0.9.7d
+    - GD 2.0.1
+    - Freetype 2.1.7
+    - libjpeg 6b
+    - libpng 1.2.7
+    - gdbm 1.8.0
+    - zlib 1.1.4
+    - expat 1.2
+    - Sablotron 1.0
+    - libxml 2.6.11
+    - libxslt 1.1.8
+    - Ming 0.2a
+    - Webalizer 2.01
+    - pdf class 009e
+    - ncurses 5.8
+    - mod_perl 2.0.0-RC4
+    - FreeTDS 0.62.4
+    - gettext 0.11.5
+    - IMAP C-Client 2002b
+    - OpenLDAP (client) 2.2.13
+    - mhash library 0.8.18
+    - mcrypt library 2.5.7
+    - cURL 7.10.7
+    - SQLite 2.8.9 (in case of PHP5: 2.8.14)
+    - phpSQLiteAdmin 0.2
+    - eAccelerator 0.9.2a
+
+New in this version of XAMPP:
+    - "version" parameter added to /opt/lampp/lampp script
+    - Chinese language support added
+    - New version of Perl (5.8.6)
+    - New version of mod_perl (2.0.0-RC2-XMas)
+    - Removed Turck MMCache from package
+    - Added eAccelerator (0.9.2a)
+    - New version of phpMyAdmin (2.6.1)
+    - New version of Apache (2.0.53)
+    - New version of mod_perl (2.0.0-RC4)
+    - New version of MySQL (4.1.10)
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2004-12-27] XAMPP for Linux 1.4.11
+
+This version of XAMPP includes:
+    - Apache 2.0.52
+    - MySQL 4.1.8
+    - PHP 4.3.10 
+    - PHP 5.0.3
+    - Perl 5.8.4
+    - ProFTPD 1.2.10
+    - phpMyAdmin 2.6.0-pl3
+    - OpenSSL 0.9.7d
+    - GD 2.0.1
+    - Freetype 2.1.7
+    - libjpeg 6b
+    - libpng 1.2.7
+    - gdbm 1.8.0
+    - zlib 1.1.4
+    - expat 1.2
+    - Sablotron 1.0
+    - libxml 2.6.11
+    - libxslt 1.1.8
+    - Ming 0.2a
+    - Webalizer 2.01
+    - pdf class 009e
+    - ncurses 5.8
+    - mod_perl 1.99_17
+    - FreeTDS 0.62.4
+    - gettext 0.11.5
+    - IMAP C-Client 2002b
+    - OpenLDAP (client) 2.2.13
+    - mhash library 0.8.18
+    - mcrypt library 2.5.7
+    - Turck MMCache 2.4.6
+    - cURL 7.10.7
+    - SQLite 2.8.9 (in case of PHP5: 2.8.14)
+    - phpSQLiteAdmin 0.2
+
+New in this version of XAMPP:
+    - New version of PHP (4.3.10)
+    - New version of PHP (5.0.3)
+    - New version of MySQL (4.1.8)
+    - Spanish language support added (Thanks to Moises Zafra)
+    - CONFIGURATION CHANGE: MySQL's log-bin is now commented out by default
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2004-12-06] XAMPP for Linux 1.4.10a
+
+    - Problems with MySQL 4.1.0 and phpMyAdmin 2.6.0-pl3
+      (I forgot to convert the phpmyadmin tables into UTF8)
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2004-12-05] XAMPP for Linux 1.4.10
+
+This version of XAMPP includes:
+    - Apache 2.0.52
+    - MySQL 4.1.7
+    - PHP 4.3.9 
+    - PHP 5.0.2
+    - Perl 5.8.4
+    - ProFTPD 1.2.10
+    - phpMyAdmin 2.6.0-pl3
+    - OpenSSL 0.9.7d
+    - GD 2.0.1
+    - Freetype 2.1.7
+    - libjpeg 6b
+    - libpng 1.2.7
+    - gdbm 1.8.0
+    - zlib 1.1.4
+    - expat 1.2
+    - Sablotron 1.0
+    - libxml 2.6.11
+    - libxslt 1.1.8
+    - Ming 0.2a
+    - Webalizer 2.01
+    - pdf class 009e
+    - ncurses 5.8
+    - mod_perl 1.99_17
+    - FreeTDS 0.62.4
+    - gettext 0.11.5
+    - IMAP C-Client 2002b
+    - OpenLDAP (client) 2.2.13
+    - mhash library 0.8.18
+    - mcrypt library 2.5.7
+    - Turck MMCache 2.4.6
+    - cURL 7.10.7
+    - SQLite 2.8.9 (in case of PHP5: 2.8.14)
+    - phpSQLiteAdmin 0.2
+
+New in this version of XAMPP:
+    - New version of MySQL (4.1.7)
+    - Added MySQLi support to PHP
+    - New version of phpMyAdmin (2.6.0-pl3)
+    - New version of mod_perl (1.99_17)
+    - Added libapreq (2.04-dev)
+    - Polish language support added (Thanks to Violetta Marczyk)
+      [I'm not sure about the character encoding. If it's wrong, blame
+       me and not Violetta. - Oswald 2004/11/27]
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2004-10-04] XAMPP for Linux 1.4.9a
+
+    - Fixed missing mail() function problem in PHP4 and PHP5
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2004-10-03] XAMPP for Linux 1.4.9
+
+This version of XAMPP includes:
+    - Apache 2.0.52
+    - MySQL 4.0.21
+    - PHP 4.3.9 
+    - PHP 5.0.2
+    - Perl 5.8.4
+    - ProFTPD 1.2.10
+    - phpMyAdmin 2.6.0-pl1
+    - OpenSSL 0.9.7d
+    - GD 2.0.1
+    - Freetype 2.1.7
+    - libjpeg 6b
+    - libpng 1.2.7
+    - gdbm 1.8.0
+    - zlib 1.1.4
+    - expat 1.2
+    - Sablotron 1.0
+    - libxml 2.6.11
+    - libxslt 1.1.8
+    - Ming 0.2a
+    - Webalizer 2.01
+    - pdf class 009e
+    - ncurses 5.8
+    - mod_perl 1.99_13
+    - FreeTDS 0.62.4
+    - gettext 0.11.5
+    - IMAP C-Client 2002b
+    - OpenLDAP (client) 2.2.13
+    - mhash library 0.8.18
+    - mcrypt library 2.5.7
+    - Turck MMCache 2.4.6
+    - cURL 7.10.7
+    - SQLite 2.8.9 (in case of PHP5: 2.8.14)
+    - phpSQLiteAdmin 0.2
+
+New in this version of XAMPP:
+    - New version of libpng (1.2.7)
+    - New version of PHP (4.3.9)
+    - New version of PHP (5.0.2)
+    - New version of Apache (2.0.52)
+    - New version of phpMyAdmin (2.6.0-pl1)
+    - "php_admin_flag" bug fixed by Emilio Paolini <ep@im-netz.de>
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2004-09-20] XAMPP for Linux 1.4.8
+
+This version of XAMPP includes:
+    - Apache 2.0.51
+    - MySQL 4.0.21
+    - PHP 4.3.8 
+    - PHP 5.0.1
+    - Perl 5.8.4
+    - ProFTPD 1.2.10
+    - phpMyAdmin 2.5.7-pl1
+    - OpenSSL 0.9.7d
+    - GD 2.0.1
+    - Freetype 2.1.7
+    - libjpeg 6b
+    - libpng 1.2.2
+    - gdbm 1.8.0
+    - zlib 1.1.4
+    - expat 1.2
+    - Sablotron 1.0
+    - libxml 2.6.11
+    - libxslt 1.1.8
+    - Ming 0.2a
+    - Webalizer 2.01
+    - pdf class 009e
+    - ncurses 5.8
+    - mod_perl 1.99_13
+    - FreeTDS 0.62.4
+    - gettext 0.11.5
+    - IMAP C-Client 2002b
+    - OpenLDAP (client) 2.2.13
+    - mhash library 0.8.18
+    - mcrypt library 2.5.7
+    - Turck MMCache 2.4.6
+    - cURL 7.10.7
+    - SQLite 2.8.9 (in case of PHP5: 2.8.14)
+    - phpSQLiteAdmin 0.2
+
+New in this version of XAMPP:
+    - New version of OpenLDAP (2.2.13)
+    - New version of FreeTDS (0.62.4)
+    - New version of PHP (5.0.1)
+    - New version of ProFTPD (1.2.10)
+    - New version of MySQL (4.0.21)
+    - New version of Apache (2.0.51)
+    - Enabled DNS lookup code in Webalizer
+    - Added libxslt (1.1.8) and XSLT/XSL support in PHP 5
+    - Added phpSQLiteAdmin (0.2)
+    - Removed Berkeley DB support from Apache to avoid sig11-problems with
+      Linux systems configured as LDAP client
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2004-07-15] XAMPP for Linux 1.4.7
+
+This version of XAMPP includes:
+    - Apache 2.0.50
+    - MySQL 4.0.20
+    - PHP 4.3.8 and 5.0.0
+    - Perl 5.8.4
+    - ProFTPD 1.2.9
+    - phpMyAdmin 2.5.7-pl1
+    - OpenSSL 0.9.7d
+    - GD 2.0.1
+    - Freetype 2.1.7
+    - libjpeg 6b
+    - libpng 1.2.2
+    - gdbm 1.8.0
+    - zlib 1.1.4
+    - expat 1.2
+    - Sablotron 1.0
+    - libxml 2.6.11
+    - Ming 0.2a
+    - Webalizer 2.01
+    - pdf class 009e
+    - ncurses 5.8
+    - mod_perl 1.99_13
+    - FreeTDS 0.60
+    - gettext 0.11.5
+    - IMAP C-Client 2002b
+    - OpenLDAP (client) 2.1.30
+    - mhash library 0.8.18
+    - mcrypt library 2.5.7
+    - Turck MMCache 2.4.6
+    - cURL 7.10.7
+    - SQLite (2.8.9) (in case of PHP5: 2.8.14)
+
+New in this version of XAMPP:
+    - New versions of PHP (4.3.8 and 5.0.0)
+      Switchable by calling "/opt/lampp/lampp php4" resp. "/opt/lampp/lampp php5"
+      PHP5 is default
+    - New version of libxml (2.6.11)
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2004-07-05] XAMPP for Linux 1.4.6
+
+This version of XAMPP includes:
+    - Apache 2.0.50
+    - MySQL 4.0.20
+    - PHP 4.3.7
+    - Perl 5.8.4
+    - ProFTPD 1.2.9
+    - phpMyAdmin 2.5.7-pl1
+    - OpenSSL 0.9.7d
+    - GD 2.0.1
+    - Freetype 2.1.7
+    - libjpeg 6b
+    - libpng 1.2.2
+    - gdbm 1.8.0
+    - zlib 1.1.4
+    - expat 1.2
+    - Sablotron 1.0
+    - libxml 2.4.26
+    - Ming 0.2a
+    - Webalizer 2.01
+    - pdf class 009e
+    - ncurses 5.8
+    - mod_perl 1.99_13
+    - FreeTDS 0.60
+    - gettext 0.11.5
+    - IMAP C-Client 2002b
+    - OpenLDAP (client) 2.1.30
+    - mhash library 0.8.18
+    - mcrypt library 2.5.7
+    - Turck MMCache 2.4.6
+    - cURL 7.10.7
+    - SQLite (2.8.9)
+
+New in this version of XAMPP:
+    - New version of Apache (2.0.50)
+    - New version of phpMyAdmin (2.5.7-pl1)
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2004-06-28] XAMPP for Linux 1.4.5a
+
+New in this version of XAMPP:
+    - Security related bugfixed version of Apache 2.0.49
+      See http://httpd.apache.org and
+      http://www.apache.org/dist/httpd/patches/apply_to_2.0.49/CAN-2004-0493.patch
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2004-06-06] XAMPP for Linux 1.4.5
+
+This version of XAMPP includes:
+    - Apache 2.0.49
+    - MySQL 4.0.20
+    - PHP 4.3.7
+    - Perl 5.8.4
+    - ProFTPD 1.2.9
+    - phpMyAdmin 2.5.6
+    - OpenSSL 0.9.7d
+    - GD 2.0.1
+    - Freetype 2.1.7
+    - libjpeg 6b
+    - libpng 1.2.2
+    - gdbm 1.8.0
+    - zlib 1.1.4
+    - expat 1.2
+    - Sablotron 1.0
+    - libxml 2.4.26
+    - Ming 0.2a
+    - Webalizer 2.01
+    - pdf class 009e
+    - ncurses 5.8
+    - mod_perl 1.99_13
+    - FreeTDS 0.60
+    - gettext 0.11.5
+    - IMAP C-Client 2002b
+    - OpenLDAP (client) 2.1.30
+    - mhash library 0.8.18
+    - mcrypt library 2.5.7
+    - Turck MMCache 2.4.6
+    - cURL 7.10.7
+    - SQLite (2.8.9)
+
+New in this version of XAMPP:
+    - New version of MySQL (4.0.20)
+    - New version of PHP (4.3.7)
+    - New version of Perl (5.8.4)
+    - New version of Freetype (2.1.7)
+    - New version of mod_perl (1.99_13)
+    - New version of OpenLDAP (client) (2.1.30)
+    - Dutch language support added (Thanks to Pim Tigelaar)
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2004-03-31] XAMPP for Linux 1.4.4
+
+This version of XAMPP includes:
+    - Apache 2.0.49
+    - MySQL 4.0.18
+    - PHP 4.3.5
+    - Perl 5.8.0
+    - ProFTPD 1.2.9
+    - phpMyAdmin 2.5.6
+    - OpenSSL 0.9.7d
+    - GD 2.0.1
+    - Freetype2 2.1.0
+    - libjpeg 6b
+    - libpng 1.2.2
+    - gdbm 1.8.0
+    - zlib 1.1.4
+    - expat 1.2
+    - Sablotron 1.0
+    - libxml 2.4.26
+    - Ming 0.2a
+    - Webalizer 2.01
+    - pdf class 009e
+    - ncurses 5.8
+    - mod_perl 1.99_08
+    - FreeTDS 0.60
+    - gettext 0.11.5
+    - IMAP C-Client 2002b
+    - OpenLDAP (client) 2.1.22
+    - mhash library 0.8.18
+    - mcrypt library 2.5.7
+    - Turck MMCache 2.4.6
+    - cURL 7.10.7
+    - SQLite (2.8.9)
+
+New in this version of XAMPP:
+    - New version of PHP (4.3.5)
+    - French language support added (Thanks to Michael, alias NaLiXiS)
+    - Added SSL support to cURL
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2004-03-24] XAMPP for Linux 1.4.3
+
+This version of XAMPP includes:
+    - Apache 2.0.49
+    - MySQL 4.0.18
+    - PHP 4.3.4
+    - Perl 5.8.0
+    - ProFTPD 1.2.9
+    - phpMyAdmin 2.5.6
+    - OpenSSL 0.9.7d
+    - GD 2.0.1
+    - Freetype2 2.1.0
+    - libjpeg 6b
+    - libpng 1.2.2
+    - gdbm 1.8.0
+    - zlib 1.1.4
+    - expat 1.2
+    - Sablotron 1.0
+    - libxml 2.4.26
+    - Ming 0.2a
+    - Webalizer 2.01
+    - pdf class 009e
+    - ncurses 5.8
+    - mod_perl 1.99_08
+    - FreeTDS 0.60
+    - gettext 0.11.5
+    - IMAP C-Client 2002b
+    - OpenLDAP (client) 2.1.22
+    - mhash library 0.8.18
+    - mcrypt library 2.5.7
+    - Turck MMCache 2.4.6
+    - cURL 7.10.7
+    - SQLite (2.8.9)
+
+New in this version of XAMPP:
+    - New version of MySQL (4.0.18)
+    - New version of Apache (2.0.49)
+    - New version of phpMyAdmin (2.5.6)
+    - New version of OpenSSL (0.9.7d)
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2004-01-18] XAMPP for Linux 1.4.2
+
+This version of XAMPP includes:
+    - Apache 2.0.48
+    - MySQL 4.0.17
+    - PHP 4.3.4
+    - Perl 5.8.0
+    - ProFTPD 1.2.9
+    - phpMyAdmin 2.5.5-pl1
+    - OpenSSL 0.9.7c
+    - GD 2.0.1
+    - Freetype2 2.1.0
+    - libjpeg 6b
+    - libpng 1.2.2
+    - gdbm 1.8.0
+    - zlib 1.1.4
+    - expat 1.2
+    - Sablotron 1.0
+    - libxml 2.4.26
+    - Ming 0.2a
+    - Webalizer 2.01
+    - pdf class 009e
+    - ncurses 5.8
+    - mod_perl 1.99_08
+    - FreeTDS 0.60
+    - gettext 0.11.5
+    - IMAP C-Client 2002b
+    - OpenLDAP (client) 2.1.22
+    - mhash library 0.8.18
+    - mcrypt library 2.5.7
+    - Turck MMCache 2.4.6
+    - cURL 7.10.7
+    - SQLite (2.8.9)
+
+New in this version of XAMPP:
+    - New version of PHP (4.3.4)
+    - New version of MySQL (4.0.17)
+    - New version of Turck MMCache (2.4.6)
+    - New version of SQLite (2.8.9)
+    - New version of phpMyAdmin (2.5.5-pl1)
+    - "backup" option for XAMPP start script (BETA)
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2003-11-03] XAMPP for Linux 1.4
+
+This version of XAMPP includes:
+    - Apache 2.0.48
+    - MySQL 4.0.16
+    - PHP 4.3.3
+    - Perl 5.8.0
+    - ProFTPD 1.2.9
+    - phpMyAdmin 2.5.4
+    - OpenSSL 0.9.7c
+    - GD 2.0.1
+    - Freetype2 2.1.0
+    - libjpeg 6b
+    - libpng 1.2.2
+    - gdbm 1.8.0
+    - zlib 1.1.4
+    - expat 1.2
+    - Sablotron 1.0
+    - libxml 2.4.26
+    - Ming 0.2a
+    - Webalizer 2.01
+    - pdf class 009e
+    - ncurses 5.8
+    - mod_perl 1.99_08
+    - FreeTDS 0.60
+    - gettext 0.11.5
+    - IMAP C-Client 2002b
+    - OpenLDAP (client) 2.1.22
+    - mhash library 0.8.18
+    - mcrypt library 2.5.7
+    - Turck MMCache 2.4.4
+    - cURL 7.10.7
+
+New in this version of XAMPP:
+    - New version of Apache (2.0.48)
+    - New version of MySQL (4.0.16) and with SSL support
+    - New version of phpMyAdmin (2.5.4)
+    - New version of proFTPD (1.2.9)
+    - New version of Sablotron (1.0)
+    - Added mhash library (0.8.18) and PHP mhash support
+    - Added mcrypt library (2.5.7) and PHP mcrypt support
+    - Added PHP accelerator Turck MMCache (2.4.4)
+    - Added cURL (7.10.7) and PHP cURL support
+    - Added SQLite (2.8.6) and PHP SQLite support
+    - Added and upgraded PEAR packages
+    - Added sockets support to PHP
+    - Added multibyte (mbstring) support to PHP
+      (Japanese, Simplified Chinese, Traditional Chinese, Korean, Russian)
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2003-10-03] XAMPP for Linux 1.3
+
+This version of XAMPP includes:
+    - Apache 2.0.47
+    - MySQL 4.0.15a
+    - PHP 4.3.3
+    - Perl 5.8.0
+    - ProFTPD 1.2.8p
+    - phpMyAdmin 2.5.2-pl1
+    - OpenSSL 0.9.7c
+    - GD 2.0.1
+    - Freetype2 2.1.0
+    - libjpeg 6b
+    - libpng 1.2.2
+    - gdbm 1.8.0
+    - zlib 1.1.4
+    - expat 1.2
+    - Sablotron 0.96
+    - libxml 2.4.26
+    - Ming 0.2a
+    - Webalizer 2.01
+    - pdf class 009e
+    - ncurses 5.8
+    - mod_perl 1.99_08
+    - FreeTDS 0.60
+    - gettext 0.11.5
+    - IMAP C-Client 2002b
+    - OpenLDAP (client) 2.1.22
+
+New in this version of XAMPP:
+    - New version of MySQL (4.0.15a)
+    - New version of ProFTPD (1.2.8p)
+    - New version of OpenSSL (0.9.7c)
+    - Added OpenLDAP client libs (2.1.22)
+    - Added Net_SSLeay.pm (1.25)
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2003-08-26] XAMPP for Linux 1.2
+
+Renaming LAMPP to "XAMPP for Linux"
+
+This version of XAMPP includes:
+    - Apache 2.0.47
+    - MySQL 4.0.14
+    - PHP 4.3.3
+    - Perl 5.8.0
+    - ProFTPD 1.2.8
+    - phpMyAdmin 2.5.2-pl1
+    - OpenSSL 0.9.7
+    - GD 2.0.1
+    - Freetype2 2.1.0
+    - libjpeg 6b
+    - libpng 1.2.2
+    - gdbm 1.8.0
+    - zlib 1.1.4
+    - expat 1.2
+    - Sablotron 0.96
+    - libxml 2.4.26
+    - Ming 0.2a
+    - Webalizer 2.01
+    - pdf class 009e
+    - ncurses 5.8
+    - mod_perl 1.99_08
+    - FreeTDS 0.60
+    - gettext 0.11.5
+    - IMAP C-Client 2002b
+
+New in this version of LAMPP:
+    - New version of PHP (4.3.3)
+    - New version of MySQL (4.0.14)
+    - New version of phpMyAdmin (2.5.2-pl1)
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2003-07-10] LAMPP 1.1
+
+This version of LAMPP includes:
+    - Apache 2.0.47
+    - MySQL 4.0.13
+    - PHP 4.3.2
+    - Perl 5.8.0
+    - ProFTPD 1.2.8
+    - phpMyAdmin 2.5.1
+    - OpenSSL 0.9.7
+    - GD 2.0.1
+    - Freetype2 2.1.0
+    - libjpeg 6b
+    - libpng 1.2.2
+    - gdbm 1.8.0
+    - zlib 1.1.4
+    - expat 1.2
+    - Sablotron 0.96
+    - libxml 2.4.26
+    - Ming 0.2a
+    - Webalizer 2.01
+    - pdf class 009e
+    - ncurses 5.8
+    - mod_perl 1.99_08
+    - FreeTDS 0.60
+    - gettext 0.11.5
+    - IMAP C-Client 2002b
+
+New in this version of LAMPP:
+    - New version of Apache (2.0.47)
+    - New version of pdf class (009e)
+    - New version of phpMyAdmin (2.5.1)
+    - Interbase support added to PHP
+	
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2003-06-01] LAMPP 1.0
+
+This version of LAMPP includes:
+    - Apache 2.0.46
+    - MySQL 4.0.13
+    - PHP 4.3.2
+    - Perl 5.8.0
+    - ProFTPD 1.2.8
+    - phpMyAdmin 2.5.0
+    - OpenSSL 0.9.7
+    - GD 2.0.1
+    - Freetype2 2.1.0
+    - libjpeg 6b
+    - libpng 1.2.2
+    - gdbm 1.8.0
+    - zlib 1.1.4
+    - expat 1.2
+    - Sablotron 0.96
+    - libxml 2.4.26
+    - Ming 0.2a
+    - Webalizer 2.01
+    - pdf class 009c
+    - ncurses 5.8
+    - mod_perl 1.99_08
+    - FreeTDS 0.60
+    - gettext 0.11.5
+    - IMAP C-Client 2002b
+
+New in this version of LAMPP:
+    - New version of Apache (2.0.46)
+    - New version of PHP (4.3.2)
+    - New version of MySQL (4.0.13)
+    - New version of ProFTPD (1.2.8)
+    - New version of phpMyAdmin (2.5.0)
+    - Upgraded PEAR
+    - Including now all (not beta) PEAR packages
+    - LAMPP now works with RedHat 9
+
+NOTICE: In this version of LAMPP I compiled PHP with internal MySQL support and
+not by linking to MySQL 4.0.13 own client library. The combination PHP 4.3.2,
+MySQL 4.0.13 seems to be not stable. You can crash the Apache by clicking on
+any "BROWSE" button in phpMyAdmin. The internal PHP MySQL support doesn't seems
+to have this bug and works - as far as I can see - stable.
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2003-03-26] LAMPP 0.9.9a
+
+Absolutely the same like the previous version but fixed a simple bug which may(!)
+install LAMPP with an empty httpd.conf when installing LAMPP the very first time.
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2003-03-23] LAMPP 0.9.9
+
+This version of LAMPP includes:
+    - Apache 2.0.44
+    - MySQL 4.0.12
+    - PHP 4.3.1
+    - Perl 5.8.0
+    - ProFTPD 1.2.7
+    - phpMyAdmin 2.3.2
+    - OpenSSL 0.9.7
+    - GD 2.0.1
+    - Freetype2 2.1.0
+    - libjpeg 6b
+    - libpng 1.2.2
+    - gdbm 1.8.0
+    - zlib 1.1.4
+    - expat 1.2
+    - Sablotron 0.96
+    - libxml 2.4.26
+    - Ming 0.2a
+    - Webalizer 2.01
+    - pdf class 009c
+    - ncurses 5.8
+    - mod_perl 1.99_08
+    - FreeTDS 0.60
+    - gettext 0.11.5
+    - IMAP C-Client 2002b
+
+New in this version of LAMPP:
+    - New version of MySQL (4.0.12)
+    - security option no longer depends on gawk
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2003-03-06] LAMPP 0.9.8
+
+This version of LAMPP includes:
+    - Apache 2.0.44
+    - MySQL 3.23.55
+    - PHP 4.3.1
+    - Perl 5.8.0
+    - ProFTPD 1.2.7
+    - phpMyAdmin 2.3.2
+    - OpenSSL 0.9.7
+    - GD 2.0.1
+    - Freetype2 2.1.0
+    - libjpeg 6b
+    - libpng 1.2.2
+    - gdbm 1.8.0
+    - zlib 1.1.4
+    - expat 1.2
+    - Sablotron 0.96
+    - libxml 2.4.26
+    - Ming 0.2a
+    - Webalizer 2.01
+    - pdf class 009c
+    - ncurses 5.8
+    - mod_perl 1.99_08
+    - FreeTDS 0.60
+    - gettext 0.11.5
+    - IMAP C-Client 2002b
+
+New in this version of LAMPP:
+    - New version of PHP (4.3.1)
+    - Webalizer now accessable by link in navigation
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2003-02-16] LAMPP 0.9.8pre1
+
+This version of LAMPP includes:
+    - Apache 2.0.44
+    - MySQL 3.23.55
+    - PHP 4.3.0
+    - Perl 5.8.0
+    - ProFTPD 1.2.7
+    - phpMyAdmin 2.3.2
+    - OpenSSL 0.9.7
+    - GD 2.0.1
+    - Freetype2 2.1.0
+    - libjpeg 6b
+    - libpng 1.2.2
+    - gdbm 1.8.0
+    - zlib 1.1.4
+    - expat 1.2
+    - Sablotron 0.96
+    - libxml 2.4.26
+    - Ming 0.2a
+    - Webalizer 2.01
+    - pdf class 009c
+    - ncurses 5.8
+    - mod_perl 1.99_08
+    - FreeTDS 0.60
+    - gettext 0.11.5
+    - IMAP C-Client 2002b
+
+New in this version of LAMPP:
+    - New version of OpenSSL (0.9.8)
+    - Added mod_perl 1.99_08        
+    - Added FreeTDS 0.60    
+    - Added gettext 0.11.5
+    - Added IMAP C-Client 2002b
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2003-02-10] LAMPP 0.9.7 (Addon)
+
+The file lampp-phpwgettext-0.9.7.tar.gz contains a PHP
+(again only the module and not the CLI version) with
+GNU gettext and IMAP support. Install this also like a 
+normal LAMPP distribution.
+
+tar xvfz lampp-phpwgettext-0.9.7.tar.gz -C /opt
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2003-02-08] LAMPP 0.9.7 (Addon)
+
+The file lampp-phpwimap-0.9.7.tar.gz contains a PHP
+(the module not the CLI version) with IMAP support.
+Install like a normal LAMPP distribution.
+
+tar xvfz lampp-phpwimap-0.9.7.tar.gz -C /opt
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2003-01-25] LAMPP 0.9.7
+
+This version of LAMPP includes:
+    - Apache 2.0.44
+    - MySQL 3.23.55
+    - PHP 4.3.0
+    - Perl 5.8.0
+    - ProFTPD 1.2.7
+    - phpMyAdmin 2.3.2
+    - OpenSSL 0.9.6h
+    - GD 2.0.1
+    - Freetype2 2.1.0
+    - libjpeg 6b
+    - libpng 1.2.2
+    - gdbm 1.8.0
+    - zlib 1.1.4
+    - expat 1.2
+    - Sablotron 0.96
+    - libxml 2.4.26
+    - Ming 0.2a
+    - Webalizer 2.01
+    - pdf class 009c
+    - ncurses 5.8
+
+New in this version of LAMPP:
+    - New version of Apache (2.0.44)
+    - New version of MySQL (3.23.55)
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2003-01-15] LAMPP 0.9.6
+
+This version of LAMPP includes:
+    - Apache 2.0.43
+    - MySQL 3.23.54a
+    - PHP 4.3.0
+    - Perl 5.8.0
+    - ProFTPD 1.2.7
+    - phpMyAdmin 2.3.2
+    - OpenSSL 0.9.6h
+    - GD 2.0.1
+    - Freetype2 2.1.0
+    - libjpeg 6b
+    - libpng 1.2.2
+    - gdbm 1.8.0
+    - zlib 1.1.4
+    - expat 1.2
+    - Sablotron 0.96
+    - libxml 2.4.26
+    - Ming 0.2a
+    - Webalizer 2.01
+    - pdf class 009c
+    - ncurses 5.8
+
+New in this version of LAMPP:
+    - ProFTPD now with mod_sql and mod_mysql enabled
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2003-01-07] LAMPP 0.9.6pre5
+
+This version of LAMPP includes:
+    - Apache 2.0.43
+    - MySQL 3.23.54a
+    - PHP 4.3.0
+    - Perl 5.8.0
+    - ProFTPD 1.2.7
+    - phpMyAdmin 2.3.2
+    - OpenSSL 0.9.6h
+    - GD 2.0.1
+    - Freetype2 2.1.0
+    - libjpeg 6b
+    - libpng 1.2.2
+    - gdbm 1.8.0
+    - zlib 1.1.4
+    - expat 1.2
+    - Sablotron 0.96
+    - libxml 2.4.26
+    - Ming 0.2a
+    - Webalizer 2.01
+    - pdf class 009c
+    - ncurses 5.8
+
+New in this version of LAMPP:
+    - Fixed a compilation mistake I did in 0.9.6pre4
+    - CHECK STATUS now works also when accessing 
+      demo pages via SSL
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2003-01-05] LAMPP 0.9.6pre4
+
+This version of LAMPP includes:
+    - Apache 2.0.43
+    - MySQL 3.23.54a
+    - PHP 4.3.0
+    - Perl 5.8.0
+    - ProFTPD 1.2.7
+    - phpMyAdmin 2.3.2
+    - OpenSSL 0.9.6h
+    - GD 2.0.1
+    - Freetype2 2.1.0
+    - libjpeg 6b
+    - libpng 1.2.2
+    - gdbm 1.8.0
+    - zlib 1.1.4
+    - expat 1.2
+    - Sablotron 0.96
+    - libxml 2.4.26
+    - Ming 0.2a
+    - Webalizer 2.01
+    - pdf class 009c
+
+In a way big and in another way not so big changes in this pre release. 
+
+Firstly I upgraded the MySQL in LAMPP to 3.23.54a and fixed little bug in the
+security software (added a sleep in checkmysqlport).
+
+And secondly I recompiled any package in LAMPP to work now also with GLIBC
+2.1.3. All other LAMPP releases needed GLIBC 2.2.0 as minimum.
+
+And finally: Added ncurses 5.8. For mysql monitor and for ncurses support in
+the commandline PHP.
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2002-12-28] LAMPP 0.9.6pre3
+
+This version of LAMPP includes:
+    - Apache 2.0.43
+    - MySQL 3.23.52
+    - PHP 4.3.0
+    - Perl 5.8.0
+    - ProFTPD 1.2.7
+    - phpMyAdmin 2.3.2
+    - OpenSSL 0.9.6h
+    - GD 2.0.1
+    - Freetype2 2.1.0
+    - libjpeg 6b
+    - libpng 1.2.2
+    - gdbm 1.8.0
+    - zlib 1.1.4
+    - expat 1.2
+    - Sablotron 0.96
+    - libxml 2.4.26
+    - Ming 0.2a
+    - Webalizer 2.01
+    - pdf class 009c
+
+New in this version of LAMPP:
+    - Security page (what is insecure)
+    - Added pdf class 009c
+    - Added PDF output to CD collection example
+    - New version of ProFTPD (1.2.7)
+    - Fix of a typo in proftpd.conf
+    - Bugfix in security option
+    - New version of PHP (4.3.0)
+    - New version of OpenSSL (0.9.6h)
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2002-11-12] LAMPP 0.9.6pre2
+
+Absolutely the same like the 0.9.6pre1 release but with a 
+development snapshot of PHP 4.3.0 (STABLE-200211101739).
+
+PHP 4.2.3 has problems with several popular software packages
+like phpBB and Postnuke because of the bug in the file_exists()
+function. The development version fixes this bug and I hope it's
+stable enough to do a good job! ;)
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2002-10-28] LAMPP 0.9.6pre1
+
+This version of LAMPP includes:
+	- Apache 2.0.43
+	- MySQL 3.23.52
+	- PHP 4.2.3
+	- Perl 5.8.0
+	- ProFTPD 1.2.6
+	- phpMyAdmin 2.3.2
+	- OpenSSL 0.9.6
+	- GD 2.0.1
+	- Freetype2 2.1.0
+	- libjpeg 6b
+	- libpng 1.2.2
+	- gdbm 1.8.0
+	- zlib 1.1.4
+	- expat 1.2
+	- Sablotron 0.96
+	- libxml 2.4.26
+	- Ming 0.2a
+	- Webalizer 2.01
+
+New in this version of LAMPP:
+	- Webalizer 2.01
+	- Ming support for PHP to make your own Flash movies with PHP
+	- Ming example
+	- more XML support for PHP with Sablotron and libxml2
+	- Status page (what is running)
+	- Apache, MySQL and PHP binaries are more independend from OS
+	- New version of phpMyAdmin (2.3.2)
+
+No longer in LAMPP:
+	- Extra documentation (like PHP or Apache manual)
+	  (it saved about 6 MB)
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2002-10-09] LAMPP 0.9.5
+
+In this version contains new versions of Apache, MySQL, PHP, Perl, and
+phpMyAdmin. It also contains the first time a very simple configured ProFTPD
+server.
+ 
+Also new in this release: the "security" parameter for the start script. With
+this parameter you can check serveral security matters and fix them
+automatically (mostly setting passwords).
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2002-09-08] LAMPP 0.9.5pre1
+
+In this version contains new versions of Apache, MySQL, PHP, Perl, and
+phpMyAdmin. It also contains the first time a very simple configured
+ProFTPD server.
+
+Also new in this release: the "security" parameter for the start script. With
+this parameter you can check serveral security matters and fix them
+automatically (mostly setting passwords).
+
+The new version of phpMyAdmin got many new features and is configured
+with all new features activated.
+
+This version of LAMPP includes:
+
+     - Apache 2.0.40
+     - MySQL 3.23.52
+     - PHP 4.2.3
+     - Perl 5.8.0
+     - ProFTPD 1.2.6
+     - phpMyAdmin 2.3.0
+     - OpenSSL 0.9.6
+     - GD 2.0.1
+     - Freetype2 2.1.0
+     - libjpeg 6b
+     - libpng 1.2.2
+     - gdbm 1.8.0
+     - zlib 1.1.4
+     - expat 1.2
+
+An upgrade from previous versions is due to the massive changings in this release not available.
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+[2002-07-26] LAMPP 0.9.4
+
+This version of LAMPP contains the following software releases:
+
+	- Apache 2.0.39
+	- MySQL 3.23.49a
+	- PHP 4.2.2
+	- Perl 5.6.1
+	- phpMyAdmin 2.2.6
+	- OpenSSL 0.9.6d
+	- GD 2.0.1 (beta)
+	- Freetype2 2.1.0
+	- libjpeg 6b
+	- libpng 1.2.2
+	- gdbm 1.8.0
+	- zlib 1.1.4
+	- expat 1.2 
+
+Upgrades for earlier versions are available.
+
+This is the inital Source Forge release of LAMPP. It was published firstly 
+in July 2002 on our project web site (two month before we were started 
+using Sourge Forge).
+
+For information how to install or upgrade LAMPP from an earlier version
+please take a look in the FAQ on our home page.
+
+Since this is the first SF release there are no changes to report.
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
