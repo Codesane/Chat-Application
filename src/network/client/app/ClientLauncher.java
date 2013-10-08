@@ -6,6 +6,7 @@ import gui.client.app.ClientGuiManager;
 import javax.swing.UIManager;
 
 import network.client.util.ClientContext;
+import network.client.util.RecentConnections;
 import network.client.util.ClientContext.ServerStatus;
 import network.client.util.Users;
 
@@ -13,7 +14,7 @@ import org.jboss.netty.channel.ConnectTimeoutException;
 
 public class ClientLauncher implements HostConnectionCallback {
 	
-	private Client client;
+	private volatile Client client;
 	
 	private ClientGuiManager gui;
 	
@@ -31,24 +32,35 @@ public class ClientLauncher implements HostConnectionCallback {
 			@Override
 			public void run() {
 				client.shutdown();
+				RecentConnections.saveData();
 			}
 		});
 	}
 	
 	@Override
-	public void connectToHost(String hostname, int port) {
-		try {
-			client.connect(hostname, port);
-		} catch (ServerOfflineException soeMsg) {
-			soeMsg.printStackTrace();
-		} catch (ConnectTimeoutException cteMsg) {
-			cteMsg.printStackTrace();
+	public void connectToHost(final String hostname, final int port) {
+		if(client != null) {
+			// This will have to do until I find a more final solution...
+			client.shutdown();
+			client = new Client();
 		}
-		if(client.isConnected()) {
-			gui.getLoginWindow().setServerStatusInfo(ServerStatus.ONLINE);
-		} else {
-			gui.getLoginWindow().setServerStatusInfo(ServerStatus.OFFLINE);
-		}
+		new Thread(new Runnable() {
+			public void run() {
+				try {
+					gui.getLoginWindow().setServerStatusInfo(ServerStatus.CONNECTING);
+					client.connect(hostname, port);
+				} catch (ServerOfflineException soeMsg) {
+					soeMsg.printStackTrace();
+				} catch (ConnectTimeoutException cteMsg) {
+					cteMsg.printStackTrace();
+				}
+				if(client.isConnected()) {
+					gui.getLoginWindow().setServerStatusInfo(ServerStatus.ONLINE);
+				} else {
+					gui.getLoginWindow().setServerStatusInfo(ServerStatus.OFFLINE);
+				}
+			}
+		}).start();
 	}
 	
 	public static void main(String[] args) throws Exception {

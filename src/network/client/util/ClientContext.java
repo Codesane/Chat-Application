@@ -29,7 +29,7 @@ public final class ClientContext {
 	 *  UNRESOLVED will be visible if the user has no desired
 	 *  connection. */
 	public enum ServerStatus {
-		ONLINE("GREEN"), OFFLINE("RED"), UNRESOLVED("ORANGE");
+		ONLINE("GREEN"), OFFLINE("RED"), CONNECTING("BLUE"), UNRESOLVED("ORANGE");
 		final String color;
 		ServerStatus(String c) {
 			this.color = c;

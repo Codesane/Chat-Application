@@ -31,7 +31,6 @@ public class Client {
 	
 	public void connect(String host, int port, int timeout) 
 			throws ConnectTimeoutException, ServerOfflineException {
-
 		/*
 		 * Add this by default to the pipeline, the first thing the user has
 		 * to do is to connect and login.
@@ -40,7 +39,7 @@ public class Client {
 
 		bootstrap.setOption("keepAlive", true);
 		bootstrap.setOption("tcpNoDelay", true);
-
+		
 		ChannelFuture connectionFeedback = bootstrap
 				.connect(new InetSocketAddress(host, port));
 		
@@ -54,6 +53,8 @@ public class Client {
 		}
 		if(connectionFeedback.isSuccess()) {
 			isConnected = true;
+		} else {
+			isConnected = false;
 		}
 	}
 	

@@ -9,6 +9,8 @@ import java.awt.GridBagLayout;
 import java.awt.Insets;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.net.InetSocketAddress;
+import java.util.ArrayList;
 
 import javax.swing.BorderFactory;
 import javax.swing.JButton;
@@ -28,6 +30,7 @@ import network.client.handlers.ClientHandshakeHandler.HandshakeResponseListener;
 import network.client.util.ClientContext;
 import network.client.util.ClientContext.LoginStatus;
 import network.client.util.ClientContext.ServerStatus;
+import network.client.util.RecentConnections;
 import network.global.handshake.HandshakeResponseEvent;
 import network.global.handshake.HandshakeResponseEvent.HandshakeStatus;
 
@@ -48,7 +51,8 @@ public class LoginWindow extends JFrame implements ActionListener, HandshakeResp
 	
 	private JMenuBar menuBar = new JMenuBar();
 	private JMenu connect = new JMenu("Connect");
-	private JMenuItem connect_new = new JMenuItem("New...");
+	private JMenuItem connectNew = new JMenuItem("New...");
+	private JMenu connectRecent = new JMenu("Recent");
 	
 	/** Called when the login returns a successful value. */
 	private LoginSuccessfulCallback loginSuccessfulCallback;
@@ -64,10 +68,7 @@ public class LoginWindow extends JFrame implements ActionListener, HandshakeResp
 		
 		setSize(380, 270);
 		
-		setJMenuBar(menuBar);
-		menuBar.add(connect);
-		connect.add(connect_new);
-		connect_new.addActionListener(this);
+		setupMenu();
 		
 		/* This will be listening for handshake responses and display information to the user.. */
 		ClientContext.getHandshakeHandler().setHandshakeResponseListener(this);
@@ -90,10 +91,46 @@ public class LoginWindow extends JFrame implements ActionListener, HandshakeResp
 		add(bottomInfoBar, BorderLayout.SOUTH);
 	}
 	
+	/** Sets up a JMenuBar with items and listeners. */
+	private void setupMenu() {
+		setJMenuBar(menuBar);
+		menuBar.add(connect);
+		connect.add(connectNew);
+		connectNew.setToolTipText("Create a new connection.");
+		connectNew.addActionListener(this);
+		connect.add(connectRecent);
+		
+		RecentConnections.addNewConnection(new InetSocketAddress("aegidius.se", 13337));
+		
+		if(RecentConnections.hasRecentConnections()) {
+			ArrayList<InetSocketAddress> recentConnections = RecentConnections.getClientRecent();
+			for(InetSocketAddress isa : recentConnections) {
+				expandRecentConnectionsMenu(isa.getHostName() + ":" + isa.getPort());
+			}
+		} else {
+			connectRecent.setEnabled(false);
+			connectRecent.setToolTipText("You do not have any recent connections.");
+		}
+	}
+	private void expandRecentConnectionsMenu(String newRecentConnection) {
+		
+		final JMenuItem recentConMenuItem = new JMenuItem(newRecentConnection);
+		
+		recentConMenuItem.setActionCommand(newRecentConnection);
+		
+		recentConMenuItem.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				connectToUnparsedAddress(recentConMenuItem.getActionCommand());
+			}
+		});
+		connectRecent.add(recentConMenuItem);
+	}
+	
 	/** Sets the bottom text of the  */
-	public void setServerStatusInfo(final ServerStatus status) {
+	public synchronized void setServerStatusInfo(final ServerStatus status) {
 		if(status == ServerStatus.ONLINE) {
-			/* The user will only be allowed to login if there is an connection with the server. */
+			/* The user will only be allowed to login if there is a connection with the server. */
 			canTryLogin = true;
 		} else {
 			canTryLogin = false;
@@ -225,19 +262,31 @@ public class LoginWindow extends JFrame implements ActionListener, HandshakeResp
 			ClientContext.getHandshakeHandler().sendHandshakeRequest(username.getText(),
 														  new String(password.getPassword()));
 			setLoginActionInfoText(LoginStatus.HANDSHAKING);
-		} else if(e.getSource() == connect_new) {
+		} else if(e.getSource() == connectNew) {
+			InetSocketAddress mostRecentConn = RecentConnections.getMostRecent();
+			String defaultConnectionString = "aegidius.se:13337";
+			if(mostRecentConn != null) {
+				defaultConnectionString = mostRecentConn.getHostName() + ":" + mostRecentConn.getPort();
+			}
 			String hostInput = JOptionPane.showInputDialog("Please enter the new Hostname and IP " +
-					"separated by colon.\nExample: hostname:port", "aegidius.se:13337");
-			
-			if(hostInput == null) return;
-			String[] parsedHost = hostInput.split(":");
-			if(parsedHost.length == 2) {
-				try {
-					hostConnectionCallback.connectToHost(parsedHost[0], Integer.parseInt(parsedHost[1]));
-				} catch(Exception numExc) {
-					JOptionPane.showMessageDialog(null, "Invalid Format: " + parsedHost[1] + " is not a number.",
-							"Not a Number", JOptionPane.ERROR_MESSAGE);
+					"separated by colon.\nExample: hostname:port", defaultConnectionString);
+			connectToUnparsedAddress(hostInput);
+		}
+	}
+	
+	private void connectToUnparsedAddress(String unparsed) {
+		
+		if(unparsed == null) return;
+		String[] parsedHost = unparsed.split(":");
+		if(parsedHost.length == 2) {
+			try {
+				if(RecentConnections.addNewConnection(new InetSocketAddress(parsedHost[0], Integer.parseInt(parsedHost[1])))) {
+					expandRecentConnectionsMenu(parsedHost[0] + ":" + Integer.parseInt(parsedHost[1]));
 				}
+				hostConnectionCallback.connectToHost(parsedHost[0], Integer.parseInt(parsedHost[1]));
+			} catch(Exception numExc) {
+				JOptionPane.showMessageDialog(null, "Invalid Format: " + parsedHost[1] + " is not a number.",
+						"Not a Number", JOptionPane.ERROR_MESSAGE);
 			}
 		}
 	}

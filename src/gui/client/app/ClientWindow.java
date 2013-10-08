@@ -177,7 +177,8 @@ public class ClientWindow extends JFrame implements ActionListener {
 	}
 	
 	/** Returns the userID given the name of the user,
-	 *  queries the Users class for the id. */
+	 *  queries the Users class for the id.
+	 *  @deprecated I will move this function to the Users class in the future */
 	public int getUserIdByName(String name) {
 		if(Users.getUsersOnline() == null) return -1;
 		for(NetworkSharedUser nsu : Users.getUsersOnline()) {

@@ -1,0 +1,61 @@
+---------------GENERAL---------------
+Date: 05:59 08-10-2013
+OS: Linux
+OS Version: 3.8.0-29-generic
+Java Version: 1.7.0_40
+------------------------------------
+
+
+Starting Server Initialization
+Connecting to database...
+Creating Server Instance...
+Setting Server port...
+Setting Requested: server_port.
+Loading Database Settings...
+Preparing and Executing Query...
+Loading Settings with fixed table size: 5
+Fetching Server Message of The Day...
+Fetching Server Port...
+Fetching Server Version...
+Fetching Server Authentication Key...
+Attaching Handshake handler to the Pipeline...
+Setting "keepAlive" and "tcpNoDelay" options for server...
+BINDING SERVER TO PORT: 13337...
+Server Status is now Online!
+Init Time: 346ms.
+Received a new Connection.
+Received handshake from Connection, validating...
+Setting Requested: server_version.
+Setting Requested: server_auth_key.
+User query requested for input: testuser.
+User Query returned 0x00.
+Handshake validation complete!
+[Result => FAILED]
+[Code => -1]
+
+Received handshake from Connection, validating...
+Setting Requested: server_version.
+Setting Requested: server_auth_key.
+User query requested for input: testuser.
+Query Successful! Returning User: TestUser.
+A channel has been added to the Channel group.
+Handshake validation complete!
+[Result => SUCCESSFUL]
+[Code => 2]
+
+Setting default pipeline for session Id: 0x2.
+New user has connected to the Server.
+[ID: 0x2]
+[Username: TestUser]
+New message handler instantiated.
+[ID: 0x2]
+[Username: TestUser]
+Setting Requested: server_motd.
+Sending user synchronization to Session: 0x2.
+New user has connected to the Server.
+[ID: 0x2]
+[Username: TestUser]
+A channel has been removed from the Channel group.
+A session was removed from the Server.
+[ID: 0x2]
+[Username: TestUser]
