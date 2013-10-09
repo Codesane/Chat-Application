@@ -67,6 +67,8 @@ public final class Database {
 			
 			Actions.addAction(new Action(ActionType.INIT, "Fetching Server Authentication Key..."));
 			settings.put(DBConstants.SETTINGS_SERVER_AUTH_KEY, res.getString(DBConstants.SETTINGS_SERVER_AUTH_KEY));
+			res.close();
+			st.close();
 			
 		}
 	}
@@ -104,9 +106,11 @@ public final class Database {
 			return null;
 		}
 		synchronized(dbConnection) {
+			Statement st = null;
+			ResultSet res = null;
 			try {
-				Statement st = dbConnection.createStatement();
-				ResultSet res = st.executeQuery(
+				st = dbConnection.createStatement();
+				res = st.executeQuery(
 						"SELECT * FROM " + DBConstants.USER_TABLE +
 						" WHERE " + DBConstants.USER_USERNAME + "='" + username + "'" +
 						" AND " + DBConstants.USER_PASSWORD + " LIKE BINARY '" + password + "' LIMIT 1");
@@ -119,6 +123,13 @@ public final class Database {
 				Actions.addAction(new Action(ActionType.INFO, "Query Successful! Returning User: " + userQueryResult.getUsername() + "."));
 			} catch (SQLException e) {
 				Actions.addAction(new Action(ActionType.ERROR, "User Query had an error. Possibility of MySQL Injection Attempt. " + e.toString()));
+			} finally {
+				try {
+					res.close();
+					st.close();
+				} catch(SQLException sqle) {
+					sqle.printStackTrace();
+				}
 			}
 		}
 		return userQueryResult;

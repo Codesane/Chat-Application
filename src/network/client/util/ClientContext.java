@@ -26,10 +26,10 @@ public final class ClientContext {
 	public static EventUpdateListener updateListener;
 	
 	/** Enums for the status of the connection,
-	 *  UNRESOLVED will be visible if the user has no desired
+	 *  DISCONNECTED will be visible if the user has no desired
 	 *  connection. */
 	public enum ServerStatus {
-		ONLINE("GREEN"), OFFLINE("RED"), CONNECTING("BLUE"), UNRESOLVED("ORANGE");
+		ONLINE("GREEN"), OFFLINE("RED"), CONNECTING("BLUE"), DISCONNECTED("ORANGE");
 		final String color;
 		ServerStatus(String c) {
 			this.color = c;

@@ -2,12 +2,9 @@ package network.client.app;
 
 import exceptions.ServerOfflineException;
 import gui.client.app.ClientGuiManager;
-
-import javax.swing.UIManager;
-
 import network.client.util.ClientContext;
-import network.client.util.RecentConnections;
 import network.client.util.ClientContext.ServerStatus;
+import network.client.util.RecentConnections;
 import network.client.util.Users;
 
 import org.jboss.netty.channel.ConnectTimeoutException;
@@ -27,7 +24,7 @@ public class ClientLauncher implements HostConnectionCallback {
 		Users.setEventUpdateListener(gui);
 		ClientContext.messageListener = gui;
 		gui.displayLoginWindow();
-		gui.getLoginWindow().setServerStatusInfo(ServerStatus.UNRESOLVED);
+		gui.getLoginWindow().setServerStatusInfo(ServerStatus.DISCONNECTED);
 		Runtime.getRuntime().addShutdownHook(new Thread() {
 			@Override
 			public void run() {
@@ -64,7 +61,7 @@ public class ClientLauncher implements HostConnectionCallback {
 	}
 	
 	public static void main(String[] args) throws Exception {
-		UIManager.setLookAndFeel("com.sun.java.swing.plaf.gtk.GTKLookAndFeel");
+		//UIManager.setLookAndFeel("com.sun.java.swing.plaf.motif.MotifLookAndFeel");
 		new ClientLauncher();
 	}
 }
