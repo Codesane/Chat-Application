@@ -37,9 +37,7 @@ public final class Database {
 	 *  Locks the dbConnection class while using it. */
 	private static void loadSettings() throws SQLException {
 		Actions.addAction(new Action(ActionType.INIT, "Loading Database Settings..."));
-		if(dbConnection == null) {
-			Actions.addAction(new Action(ActionType.SEVERE, "Failed to init database!"));
-		}
+		preQueryConnect();
 		synchronized(dbConnection) {
 			Statement st = dbConnection.createStatement();
 			
@@ -67,9 +65,7 @@ public final class Database {
 			
 			Actions.addAction(new Action(ActionType.INIT, "Fetching Server Authentication Key..."));
 			settings.put(DBConstants.SETTINGS_SERVER_AUTH_KEY, res.getString(DBConstants.SETTINGS_SERVER_AUTH_KEY));
-			res.close();
-			st.close();
-			
+			postQueryCleanup(dbConnection, st, res);
 		}
 	}
 	
@@ -88,18 +84,16 @@ public final class Database {
 		return settings.get(opt);
 	}
 	
-	/** Connects to the database given the information in the parameters */
-	public static void connect(String dbHost, String dbPort, 
-			String dbUsername, String dbPassword, String dbName) throws SQLException {
-		if(dbConnection == null) {
-			dbConnection = DriverManager.getConnection("jdbc:mysql://" + dbHost + ":" + dbPort + "/"
-					+ dbName, dbUsername, dbPassword);
-		}
-	}
-	
-	/** Queries the database for the user,
-	 *  will return null if the user was not found in the database. */
+	/** Opens a connection, asks for the user, closes the connection and returns a result.
+	 * 
+	 *  @param username The username the user has supplied.
+	 *  @param password The password the user has supplied.
+	 *  <p>The values will be checked before the query, meaning they do not need
+	 *  to be SQL safe when passed to this function.
+	 *  @return An instance of the DBQueryUserResult if the user was found, <b>null</b>
+	 *  otherwise. </p> */
 	public static DBQueryUserResult getUser(String username, String password) {
+		preQueryConnect();
 		Actions.addAction(new Action(ActionType.INFO, "User query requested for input: " + username + "."));
 		DBQueryUserResult userQueryResult = null;
 		if(username.contains("'") || username.contains("\"") || username.contains(" ")) {
@@ -124,21 +118,68 @@ public final class Database {
 			} catch (SQLException e) {
 				Actions.addAction(new Action(ActionType.ERROR, "User Query had an error. Possibility of MySQL Injection Attempt. " + e.toString()));
 			} finally {
-				try {
-					res.close();
-					st.close();
-				} catch(SQLException sqle) {
-					sqle.printStackTrace();
-				}
+				postQueryCleanup(dbConnection, st, res);
 			}
 		}
 		return userQueryResult;
+	}
+	
+	/**
+	 * Will connect to the Database using the default information
+	 * contained within the {@link DBConstants} class.
+	 * */
+	private static void preQueryConnect() {
+		try {
+			connect();
+		} catch(SQLException e) {
+			// Exception notified in the "connect(String, String, String, String, String)" method.
+		}
 	}
 	
 	/** Connects to the database given the default connection parameters. */
 	public static void connect() throws SQLException {
 		connect(DBConstants.DEFAULT_HOST, DBConstants.DEFAULT_PORT, DBConstants.DEFAULT_USERNAME,
 				DBConstants.DEFAULT_PASSWORD, DBConstants.DEFAULT_DATABASE);
+	}
+	
+	/** Connects to a MySQL Database using the parameters as arguments.
+	 * <p>Take a look at {@link DBConstants} for more information.</p>
+	 *  <br />
+	 *  @param dbHost MySQL Database Hostname.
+	 *  @param dbPort MySQL Database Port (Usually 3306)
+	 *  @param dbUsername MySQL Username for this session (Make sure the user has the required permissions).
+	 *  @param dbPassword MySQL Password for the user defined in the previous argument.
+	 *  @param dbName MySQL Database to which the server will query. */
+	public static void connect(String dbHost, String dbPort, 
+			String dbUsername, String dbPassword, String dbName) throws SQLException {
+		if(dbConnection == null || dbConnection.isClosed()) {
+			dbConnection = DriverManager.getConnection("jdbc:mysql://" + dbHost + ":" + dbPort + "/"
+					+ dbName, dbUsername, dbPassword);
+		}
+		if(dbConnection == null || dbConnection.isClosed()) {
+			Actions.addAction(new Action(ActionType.SEVERE, "Failed to connect to Database."));
+		}
+	}
+	
+	/** Called after a query is performed, its job is to close the connections
+	 *  to free any resources that are no longer used. <p>
+	 *  As documented, every connection should be opened and then closed
+	 *  for every query performed.</p>
+	 *  
+	 *  @param c The global {@link Connection} variable.
+	 *  @param st The {@link Statement} containing the query.
+	 *  @param rs The {@link ResultSet} associated with the query. */
+	private static void postQueryCleanup(Connection c, Statement st, ResultSet rs) {
+		try {
+			if(rs != null) {
+				rs.close();
+				st.close();
+				c.close();
+			}
+		} catch(Exception e) {
+			Actions.addAction(new Action(ActionType.WARNING, "Unable to close Database connections " +
+					"post query."));
+		}
 	}
 	
 	/** Closes the connection,

@@ -1,5 +1,14 @@
 package network.server.database;
 
+/**
+ * Class containing all the necessary constants for the {@link Database} to connect
+ * if no argument was supplied to the connect method.
+ * <ul>
+ * <li>Try to keep all the SQL Statements as <b>protected</b>, they should only be used
+ * within the database class anyway.</li>
+ * <li>Keep all the settings option keys here for simplicity and organization.</li>
+ * </ul>
+ * */
 public final class DBConstants {
 	
 	/* These values will be used if no parameters were given in the "connect()" method. */

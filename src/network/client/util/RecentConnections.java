@@ -7,7 +7,6 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.net.InetSocketAddress;
-import java.net.URL;
 import java.util.ArrayList;
 
 /**
@@ -19,7 +18,7 @@ public final class RecentConnections {
 	private static ArrayList<InetSocketAddress> clientRecent;
 	private static boolean isInit = false;
 	
-	private static final String RESOURCE_LOCATION = "/network/client/util/resources/recent_connections.bin";
+	private static final String RESOURCE_LOCATION = "recent_connections.bin";
 	
 	private RecentConnections() {
 		loadData();
@@ -36,10 +35,9 @@ public final class RecentConnections {
 	
 	@SuppressWarnings("unchecked")
 	public static void loadData() {
-		URL fileLocation = RecentConnections.class.getResource(RESOURCE_LOCATION);
 		try {
-			if(fileLocation == null) throw new IOException("filepath null --handle");
-			ObjectInputStream objectInput = new ObjectInputStream(new FileInputStream(new File(fileLocation.getFile())));
+			File fileLocation = new File(RESOURCE_LOCATION);
+			ObjectInputStream objectInput = new ObjectInputStream(new FileInputStream(fileLocation));
 			clientRecent = (ArrayList<InetSocketAddress>) objectInput.readObject();
 			objectInput.close();
 		} catch (ClassNotFoundException | IOException e) {
@@ -61,7 +59,7 @@ public final class RecentConnections {
 	public static void saveData() {
 		try {
 			ObjectOutputStream objectOut = new ObjectOutputStream(new FileOutputStream(
-					new File(RecentConnections.class.getResource(RESOURCE_LOCATION).getFile())));
+					new File(RESOURCE_LOCATION)));
 			if(clientRecent == null) {
 				clientRecent = new ArrayList<InetSocketAddress>();
 			}
