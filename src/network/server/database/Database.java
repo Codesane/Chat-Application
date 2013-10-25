@@ -37,8 +37,8 @@ public final class Database {
 	 *  Locks the dbConnection class while using it. */
 	private static void loadSettings() throws SQLException {
 		Actions.addAction(new Action(ActionType.INIT, "Loading Database Settings..."));
-		preQueryConnect();
 		synchronized(dbConnection) {
+			preQueryConnect();
 			Statement st = dbConnection.createStatement();
 			
 			Actions.addAction(new Action(ActionType.INIT, "Preparing and Executing Query..."));
